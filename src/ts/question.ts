@@ -12,6 +12,7 @@ export interface QuestionDetranInterface {
 }
 
 type QuestionDetranType = 
+  'NAO_IDENTIFICADO' |
   'CIDADANIA' |
   'DIRECAO_DEFENSIVA' | 
   'LEGISLACAO' | 
@@ -23,4 +24,5 @@ type QuestionDetranOptions =
   'A' |
   'B' | 
   'C' | 
-  'D';
+  'D' | 
+  '?';
