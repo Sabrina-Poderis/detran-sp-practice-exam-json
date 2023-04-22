@@ -1,4 +1,4 @@
-import { QuestionDetranInterface } from "../ts/question";
+import { QuestionDetranInterface } from "../ts/questionDetranInterface";
 
 export const detranQuestions: Array<QuestionDetranInterface> = [
   {
@@ -11,8 +11,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ventilação forçada e freio",
       D: "velas e ventilação circulante",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "A",
+    type: "MECANICA_BASICA",
   },
   {
     id: 2,
@@ -24,8 +24,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "educação, egoísmo, atenção, cooperação e solidariedade",
       D: "educação, habilidades, displicência, cooperação e solidariedade",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "A",
+    type: "CIDADANIA",
   },
   {
     id: 3,
@@ -37,8 +37,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "90 km/h",
       D: "60 km/h",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "A",
+  type: "LEGISLACAO",
   },
   {
     id: 4,
@@ -50,8 +50,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "do espelho interno, apenas, para que o condutor tenha um maior campo de visão traseira do veículo",
       D: "do espelho interno voltado para a lateral esquerda do veículo, para que o condutor tenha um maior campo de visão lateral do veículo",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "B",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 5,
@@ -62,8 +62,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "se destina, exclusivamente, para a circulação de caminhões",
       D: "se destina à circulação de veículos de transporte de produtos perecíveis",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "C",
+    type: "LEGISLACAO",
   },
   {
     id: 6,
@@ -75,8 +75,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "não deve virar à direita",
       D: "deve virar à direita",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "B",
+    type: "LEGISLACAO",
   },
   {
     id: 7,
@@ -88,8 +88,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "traumatismo craniano",
       D: "fratura da bacia",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "B",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 8,
@@ -101,8 +101,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "saber ler e escrever",
       D: "estar matriculado no Ensino Fundamental",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "C",
+    type: "LEGISLACAO",
   },
   {
     id: 9,
@@ -113,7 +113,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "um ano",
       D: "três meses",
     },
-    answer: "?",
+    answer: "C",
     type: "NAO_IDENTIFICADO",
   },
   {
@@ -126,8 +126,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "a ultrapassagem e os deslocamentos laterais são proibidos",
       D: "a ultrapassagem e os deslocamentos laterais são permitidos",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "C",
+    type: "LEGISLACAO",
   },
   {
     id: 11,
