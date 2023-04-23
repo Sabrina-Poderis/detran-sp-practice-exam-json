@@ -217,6 +217,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conhecer e cumprir as regras de circulação e de conduta",
     },
     answer: "D",
+    checked: true,
     type: "CIDADANIA",
   },
   {
@@ -333,6 +334,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é obrigatório seguir em frente ou à direita",
     },
     answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -1639,7 +1641,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "cometer uma infração por excesso de velocidade até 20% do permitido",
       D: "cometer uma infração por estacionar afastado a 1 metro da guia da calçada",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2200,7 +2203,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "área de desmoronamento na via",
       D: "projeção de cascalho na via",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2718,7 +2722,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "acionar o serviço de emergência, sinalizar o local e remover imediatamente o veículo acidentado da via",
       D: "medicar a(s) vítima(s), avisar os parentes e removê-la(s) imediatamente do local",
     },
-    answer: "?",
+    answer: "B", 
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -3905,7 +3910,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "gravíssima",
       D: "leve",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4110,7 +4116,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "multa",
       D: "apreensão da CNH",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4214,7 +4221,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "nas dimensões indicadas pelo fabricante do veículo",
       D: "com sulcos acima de 1,6 mm de profundidade",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -4251,7 +4259,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "indicar logradouros públicos importantes, áreas turísticas ou rotas dentro da cidade orientando transeuntes",
       D: "advertir os condutores sobre as condições irregulares e imprevistas na via mudando a direção",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4944,7 +4953,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "que está parado",
       D: "em sentido contrário",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -5537,7 +5547,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "manter a mesma velocidade",
       D: "aumentar a velocidade",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -5741,7 +5752,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "produção de poluição veicular acima do normal, exigindo manutenção preventiva do veículo",
       D: "funcionamento adequado do motor de acordo com as normas de trânsito e as orientações do fabricante",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -7393,7 +7405,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "conhece e troca sozinho peças defeituosas do seu veículo mantendo-o seguro e bem conservado",
       D: "guarda distância de segurança entre o veículo que dirige e o que segue à sua frente",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "CIDADANIA",
   },
   {
@@ -7712,7 +7725,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "boa visibilidade, pneus descalibrados e óleo na pista",
       D: "chuva, sono e buracos na via",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
