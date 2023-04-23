@@ -1304,7 +1304,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "permitida para bicicletas de crianças e adolescentes, desde que os pais se responsabilizem",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 103,
@@ -1317,7 +1317,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manterá a Permissão para Dirigir por mais um ano",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 104,
@@ -1329,7 +1329,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o sistema de suspensão e de amortecedores perdeu a validade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 105,
@@ -1342,7 +1342,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter balanceado o cardan",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 106,
@@ -1355,7 +1355,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: 'categoria "D"',
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 107,
@@ -1381,7 +1381,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "longos trechos de retas e pontes estreitas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 109,
@@ -1394,7 +1394,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "bateria fraca",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 110,
@@ -1433,7 +1433,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "embreagem",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 113,
@@ -1446,7 +1446,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade, não parar e cruzar a via à esquerda, aproveitando uma brecha entre os veículos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 114,
@@ -1459,7 +1459,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ré",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 115,
@@ -1485,7 +1485,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fluido de freios",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 117,
@@ -1498,7 +1498,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "constantemente todo o ambiente no trânsito à sua volta",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 118,
@@ -1511,7 +1511,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "agindo com prudência, facilitando a ultrapassagem e indo a favor do bom convívio no trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 119,
@@ -1523,7 +1523,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "controle emocional e respeito ao cidadão, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 120,
@@ -1536,7 +1536,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "2 metros",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 121,
@@ -1549,7 +1549,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ministrar analgésico e alimentar a vítima",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 122,
@@ -1562,7 +1562,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "originais e apresentadas com a Carteira de Identidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 123,
@@ -1614,7 +1614,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "direção, com folgas ou com o sistema hidráulico falhando",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 127,
@@ -1627,7 +1627,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "via com alterações na malha asfáltica, prejudicando a condução do veículo e a ação do condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 128,
@@ -1651,8 +1651,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "seis anos de idade",
       D: "cinco anos de idade",
     },
-    answer: "?",
-    type: "NAO_IDENTIFICADO",
+    answer: "A",
+    type: "LEGISLACAO",
   },
   {
     id: 130,
@@ -1664,7 +1664,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "bloqueia todas as rodas simultaneamente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 131,
@@ -1703,7 +1703,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "multa",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 134,
@@ -1716,7 +1716,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o veículo for dotado exclusivamente de bancos dianteiros",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 135,
@@ -1728,7 +1728,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "tempo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 136,
@@ -1779,7 +1779,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pode causar acidentes e aborrecimentos com outros condutores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 140,
@@ -1791,7 +1791,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sinalizar a área do acidente, utilizando entre outros: o triângulo, o pisca-alerta e galhos de árvores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 141,
@@ -1804,7 +1804,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter distância de seguimento e estar atento para conseguir frear a tempo de evitar a colisão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 142,
@@ -1817,7 +1817,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: 'estar habilitado, no mínimo, há dois anos na categoria "B" ou, no mínimo, há um ano na categoria "C"',
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 143,
@@ -1830,7 +1830,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "breves, para advertências necessárias, a fim de evitar acidentes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 144,
@@ -1842,7 +1842,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "carburador e injeção eletrônica",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 145,
@@ -1855,7 +1855,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "2 (dois) decigramas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 146,
@@ -1868,7 +1868,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "desrespeitar qualquer preceito do CTB, a legislação complementar e as Resoluções do Contran",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 147,
@@ -1881,7 +1881,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "triângulo de segurança",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 148,
@@ -1893,7 +1893,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "automotor, elétrico, de propulsão humana, de tração animal, reboque ou semirreboque",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 149,
@@ -1919,7 +1919,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a velocidade e mudar de faixa imediatamente, não necessitando sinalizar",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 151,
@@ -1945,7 +1945,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "da ignição e suspensão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 153,
@@ -1971,7 +1971,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "campainha pisca-alerta e iluminação traseira e lateral",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 155,
@@ -1984,7 +1984,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a velocidade do veículo e seguir em frente, mesmo sendo área de travessia de pedestres",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 156,
@@ -2009,7 +2009,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o veículo da frente esteja na faixa em que o veículo quer ultrapassar",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 158,
@@ -2035,7 +2035,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "retirar a(s) vítima(s) rapidamente do local para restabelecer o tráfego na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 160,
@@ -2047,7 +2047,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "enquanto dirige, cadastrar o destino no GPS",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 161,
@@ -2073,7 +2073,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "planejar, operar e fiscalizar a circulação e a parada de veículos em vias urbanas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 163,
@@ -2086,7 +2086,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "comprimir a região com um pano limpo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 164,
@@ -2098,7 +2098,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "os limpadores de para-brisa funcionam adequadamente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 165,
@@ -2111,7 +2111,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aguardar que concluam a travessia",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 166,
@@ -2137,7 +2137,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedal de freio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 168,
@@ -2150,7 +2150,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o veículo e o passageiro",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 169,
@@ -2162,7 +2162,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acelerar e acionar o pisca-alerta",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 170,
@@ -2175,7 +2175,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "para que os veículos que vêm no sentido contrário possam ter melhor visibilidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 171,
@@ -2188,7 +2188,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "piso uniforme, nivelado e plano e mãos de direção bem sinalizadas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 172,
@@ -2214,7 +2214,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a manutenção da injeção eletrônica",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 174,
@@ -2227,7 +2227,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 175,
@@ -2240,7 +2240,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "habilidade insuficiente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 176,
@@ -2253,7 +2253,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de óleo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 177,
@@ -2278,7 +2278,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "distância de parada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 179,
@@ -2291,7 +2291,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pratica infração leve, não resultando em multa ou remoção do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 180,
@@ -2317,7 +2317,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "multa e retenção do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 182,
@@ -2330,7 +2330,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "CNH de qualquer categoria",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 183,
@@ -2343,7 +2343,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "desviar a visão para uma referência na faixa, à direita da pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 184,
@@ -2356,7 +2356,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não movimentar a vítima e lavar o ferimento com água abundante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 185,
@@ -2369,7 +2369,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "cabo de partida e válvulas de escape",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 186,
@@ -2395,7 +2395,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "liga aparelhos sonoros no interior do veículo em volumes muito altos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 188,
@@ -2473,7 +2473,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "monóxido de carbono",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 194,
@@ -2486,7 +2486,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "frear o veículo sobre poças d'água no intuito de aumentar a aderência entre os pneus e o pavimento da pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 195,
@@ -2499,7 +2499,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "que se firmem nos pés e não atrapalhem o uso dos pedais",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 196,
@@ -2512,7 +2512,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "cinto de segurança",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 197,
@@ -2538,7 +2538,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "as queimadas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 199,
@@ -2551,7 +2551,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sinalizar com a seta e aguardar à direita da pista para executar a manobra, cedendo passagem aos veículos que transitam em sentido contrário",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 200,
@@ -2564,7 +2564,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "folgas no sistema de direção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 201,
@@ -2577,7 +2577,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "advertência",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 202,
@@ -2590,7 +2590,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acondiciona dentro do veículo o lixo produzido por ele ou pelos passageiros e o descarta em local apropriado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 203,
@@ -2603,7 +2603,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fazer a manutenção e a regulagem periódica do motor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 204,
@@ -2629,7 +2629,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "óleo do câmbio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 206,
@@ -2642,7 +2642,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ultrapassagem proibida apenas para um dos sentidos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 207,
@@ -2655,7 +2655,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "mudar rapidamente de faixa de tráfego, acelerando o veículo, sem sinalizar a ultrapassagem",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 208,
@@ -2680,7 +2680,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "melhoram a percepção e aliviam qualquer tipo de desconforto do condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 210,
@@ -2719,7 +2719,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "medicar a(s) vítima(s), avisar os parentes e removê-la(s) imediatamente do local",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 213,
@@ -2732,7 +2732,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pavimento bem nivelado e sinalização horizontal visível e em bom estado de conservação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 214,
@@ -2745,7 +2745,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fazer a manutenção periódica do motor do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 215,
@@ -2758,7 +2758,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "passagem de veículos de transporte coletivo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 216,
@@ -2771,7 +2771,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículos de passeio e veículos com peso acima de três mil e quinhentos quilogramas e que a lotação exceda a oito lugares, excluído o do motorista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 217,
@@ -2784,7 +2784,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é melhor continuar dirigindo para chegar ao destino mais rápido, onde poderá descansar",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 218,
@@ -2797,7 +2797,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "utilizar a buzina de forma insistente; é a melhor maneira de fazer o trânsito andar",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 219,
@@ -2810,7 +2810,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aplicar torniquete para estancar a hemorragia",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 220,
@@ -2836,7 +2836,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "mantenha a velocidade e freie abruptamente quando perceber que não será possível desviar dos buracos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 222,
@@ -2862,7 +2862,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "prestar socorro imediato, começando pelos casos mais simples de resolver, como remover a(s) vítima(s)",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 224,
@@ -2875,7 +2875,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de qualquer lado do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 225,
@@ -2888,7 +2888,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "60 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 226,
@@ -2913,7 +2913,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "usar de ousadia e agressividade suficientes para se proteger de riscos e de imprevisibilidades no trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 228,
@@ -2926,7 +2926,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ter 18 (dezoito) anos completos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 229,
@@ -2939,7 +2939,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "distância de seguimento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 230,
@@ -2952,7 +2952,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "desconhecimento das regras de trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 231,
@@ -2964,7 +2964,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "atender ao celular, alimentar-se ou procurar um CD para trocar aquele que está no aparelho de som",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 232,
@@ -2990,7 +2990,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a 40 metros do veículo ou, aproximadamente, 40 passos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 234,
@@ -3028,7 +3028,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "audição ou visão deficientes e conhecimento da legislação de trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 237,
@@ -3041,7 +3041,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "leve",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 238,
@@ -3067,7 +3067,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "trailers",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 240,
@@ -3093,7 +3093,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "peças do veículo já utilizadas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 242,
@@ -3106,7 +3106,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "infração grave; penalidade de cassação do direito de dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 243,
@@ -3119,7 +3119,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apreensão do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 244,
@@ -3131,7 +3131,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "evitar frear sobre poças d'água",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 245,
@@ -3170,7 +3170,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "selecionar pessoas vestidas com roupas de cor branca para fazer a sinalização",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 248,
@@ -3183,7 +3183,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a luz alta do farol",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 249,
@@ -3196,7 +3196,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aumentar a distância do veículo à frente e acender o farol alto",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 250,
@@ -3209,7 +3209,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "enfaixar fortemente o pé com um pedaço de pano molhado até a chegada da equipe de emergência",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 251,
@@ -3222,7 +3222,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "recolhimento do CRV",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 252,
@@ -3248,7 +3248,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acelerar no início da curva para aumentar a aderência dos pneus e segurar o volante com as duas mãos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 254,
@@ -3261,7 +3261,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "imprudente, pois a marcha reduzida força o motor, consome mais combustível e reduz a estabilidade do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 255,
@@ -3274,7 +3274,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "utilizar os espelhos retrovisores antes de mudar de direção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 256,
@@ -3299,7 +3299,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a chuva e a neblina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 258,
@@ -3312,7 +3312,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "leve",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 259,
@@ -3325,7 +3325,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "usado como seguro contra danos provocados a pessoas transportadas ou não, em acidentes com veículos automotores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 260,
@@ -3351,7 +3351,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "as placas de publicidade e os anúncios comerciais à beira da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 262,
@@ -3363,7 +3363,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não superior a dez minutos para efetuar embarque ou desembarque de passageiros",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 263,
@@ -3376,7 +3376,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o veículo na pista de rolamento e sinalizar aos demais condutores por meio de gestos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 264,
@@ -3402,7 +3402,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "30 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 266,
@@ -3415,7 +3415,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "distância de reação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 267,
@@ -3428,7 +3428,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a velocidade e frear enquanto passa sobre poças d'água",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 268,
@@ -3441,7 +3441,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "câmbio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 269,
@@ -3454,7 +3454,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à presença de bolhas de ar na tubulação e de trincas nas rodas do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 270,
@@ -3466,7 +3466,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "alterar as condições de regulagem do motor para aumentar a sua potência",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 271,
@@ -3479,7 +3479,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 272,
@@ -3492,7 +3492,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "iniciar a contagem a partir do local do acidente, acrescentando 10 passos largos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 273,
@@ -3518,7 +3518,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "mantém ligado o motor do veículo, estando o trânsito paralisado dentro de um túnel",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 275,
@@ -3531,7 +3531,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "granizo, vento, obras na via ou neblina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 276,
@@ -3556,7 +3556,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de 3 em 3 anos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 278,
@@ -3569,7 +3569,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "falta de óleo no câmbio e vazamentos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 279,
@@ -3582,7 +3582,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "radiador",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 280,
@@ -3595,7 +3595,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "radiais, arteriais, coletoras e locais",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 281,
@@ -3608,7 +3608,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "verticais, gestos de agentes ou de condutores e buzina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 282,
@@ -3621,7 +3621,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "lonas novas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 283,
@@ -3634,7 +3634,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "do lado em que o desembarque for mais fácil",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 284,
@@ -3647,7 +3647,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "dificuldade de respirar, torcicolo e perda da audição",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 285,
@@ -3660,7 +3660,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "nível de água do radiador: nos veículos refrigerados à água, verificando o nível do reservatório de água",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 286,
@@ -3673,7 +3673,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "justifica-se quando o veículo da frente é pesado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 287,
@@ -3686,7 +3686,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "irritação e boa audição",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 288,
@@ -3699,7 +3699,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a estabilidade do veículo depende somente da potência do motor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 289,
@@ -3712,7 +3712,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pouca noção de higiene e limpeza",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 290,
@@ -3725,7 +3725,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "leve",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 291,
@@ -3738,7 +3738,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sociável e responsável, não gerando situações de risco",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 292,
@@ -3751,7 +3751,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sinalizar o local, avaliar o estado da(s) vítima(s) e removê-las ao Pronto Socorro",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 293,
@@ -3764,7 +3764,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não ter cometido nenhuma infração grave ou gravíssima ou ser reincidente em infrações médias ou ainda ter cometido quatro infrações leves durante os últimos 12 (doze) meses",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 294,
@@ -3776,7 +3776,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "transformar a energia mecânica em energia elétrica",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 295,
@@ -3789,7 +3789,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o Manual do Proprietário entregue pelo fabricante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 296,
@@ -3802,7 +3802,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "80 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 297,
@@ -3815,7 +3815,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "cassação da CNH",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 298,
@@ -3828,7 +3828,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pista, em qualquer dos dois sentidos de tráfego, indiferentemente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 299,
@@ -3854,7 +3854,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o peso máximo, constituído do peso próprio do veículo mais a lotação, que o veículo transmite ao pavimento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 301,
@@ -3893,7 +3893,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículo e luz",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 304,
@@ -3906,7 +3906,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "leve",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 305,
@@ -3932,7 +3932,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sono; amortecedores em mau estado; pista escorregadia; granizo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 307,
@@ -3945,7 +3945,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conduzir o veículo sem os documentos de porte obrigatório",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 308,
@@ -3958,7 +3958,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pensem primeiro em si mesmos e depois no bem coletivo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 309,
@@ -3984,7 +3984,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "média",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 311,
@@ -3997,7 +3997,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "onde não houver largura suficiente na pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 312,
@@ -4009,7 +4009,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "mudar de faixa de tráfego sem usar a seta indicativa de direção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 313,
@@ -4022,7 +4022,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com multa, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 314,
@@ -4035,7 +4035,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 315,
@@ -4048,7 +4048,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pela direita da via nas estradas, e pela esquerda nas vias de uma cidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 316,
@@ -4060,7 +4060,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "atrapalhe a ultrapassagem de outro veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 317,
@@ -4073,7 +4073,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apreensão do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 318,
@@ -4085,7 +4085,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ser atento e antecipar-se às Situação de Risco",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 319,
@@ -4098,7 +4098,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao abrir o sinal verde do semáforo, avançar o veículo mesmo tendo pedestre concluindo a travessia",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 320,
@@ -4111,7 +4111,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apreensão da CNH",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 321,
@@ -4124,7 +4124,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "longitudinalmente à via, na cor branca",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 322,
@@ -4137,7 +4137,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de manchas de hematoma, sem sangramento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 323,
@@ -4150,7 +4150,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o seu veículo, bloqueando a via e, em seguida, atender a vítima mais grave",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 324,
@@ -4189,7 +4189,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "relacionada com a maneira de dirigir do condutor e que não tem relação com o meio ambiente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 327,
@@ -4202,7 +4202,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "as normas de proteção ao meio ambiente não dizem respeito aos veículos automotores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 328,
@@ -4215,7 +4215,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com sulcos acima de 1,6 mm de profundidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 329,
@@ -4227,7 +4227,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículos motorizados de duas ou três rodas, com ou sem carro lateral, como também veículos de carga",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 330,
@@ -4240,7 +4240,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pelo sistema de ventilação interna",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 331,
@@ -4265,7 +4265,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "80 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 333,
@@ -4278,7 +4278,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "agir sozinho, evitando pedir ajuda a outros condutores e aos profissionais socorristas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 334,
@@ -4291,7 +4291,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "comprimir com força o local da queimadura",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 335,
@@ -4317,7 +4317,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estar atento não garante ao condutor a possibilidade de evitar as Situação de Risco ao volante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 337,
@@ -4342,7 +4342,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "lâmpadas do farol alto queimadas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 339,
@@ -4367,7 +4367,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "permanecer no mesmo local e acenar para que os outros condutores desviem do seu veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 341,
@@ -4380,7 +4380,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fiscamente bem, atento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 342,
@@ -4393,7 +4393,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "multa e suspensão do direito de dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 343,
@@ -4406,7 +4406,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "volante do pistão motor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 344,
@@ -4419,7 +4419,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter o veículo no próprio local onde parou e sinalizar com pisca-alerta e triângulo de seguraça",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 345,
@@ -4445,7 +4445,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aprovado, desde que não cometa falta de qualquer natureza",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 347,
@@ -4470,7 +4470,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a mesma velocidade, mas não fazer ultrapassagens nesse trecho",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 349,
@@ -4496,7 +4496,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "alta velocidade, excesso de água na pista e pneus em mau estado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 351,
@@ -4522,7 +4522,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o veículo antes da faixa e dar preferência à travessia do pedestre",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 353,
@@ -4534,7 +4534,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pneu",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 354,
@@ -4547,7 +4547,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sono, cansaço e dirigir alcoolizado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 355,
@@ -4560,7 +4560,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a 80 metros do veículo ou, aproximadamente, 80 passos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 356,
@@ -4573,7 +4573,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estrada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 357,
@@ -4585,7 +4585,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "produzir centelhas elétricas (faíscas) para a mistura de ar e combustível",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 358,
@@ -4597,7 +4597,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "receber a água de resfriamento que vem do radiador e fazê-la circular no cabeçote, no motor e de volta ao radiador",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 359,
@@ -4610,7 +4610,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "branca",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 360,
@@ -4623,7 +4623,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "80 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 361,
@@ -4636,7 +4636,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: 'ter idade mínima de 21 anos, ser habilitado na categoria "D" e ter realizado curso especializado reconhecido pelo Detran',
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 362,
@@ -4662,7 +4662,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "age preocupado, primeiramente, com a segurança de todos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 364,
@@ -4688,7 +4688,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "órgão executivo de trânsito municipal",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 366,
@@ -4714,7 +4714,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "regulação de fluxos de mesmo sentido e delimitação de trechos de vias destinados ao estacionamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 368,
@@ -4753,7 +4753,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sabe contornar situações de risco criadas por ele mesmo ao deixar de observar alguma norma",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 371,
@@ -4766,7 +4766,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "taxímetro",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 372,
@@ -4816,7 +4816,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "for suspenso do seu direito de dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 376,
@@ -4867,7 +4867,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estar na lateral da pista e antes do local do acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 380,
@@ -4880,7 +4880,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "colisão com objetos fixos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 381,
@@ -4919,7 +4919,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "que não tenham concluído a travessia, quando houver mudança de sinal",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 384,
@@ -4932,7 +4932,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "30 dias",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 385,
@@ -4945,7 +4945,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "em sentido contrário",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 386,
@@ -4957,7 +4957,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículos motorizados, de duas ou três rodas, com ou sem carro lateral",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 387,
@@ -4970,7 +4970,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "60 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 388,
@@ -4996,7 +4996,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "óleo lubrificante do câmbio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 390,
@@ -5009,7 +5009,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sincronizado, caixa de câmbio e suspensão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 391,
@@ -5035,7 +5035,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "suspensão e transmissão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 393,
@@ -5048,7 +5048,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "enviar carta à autoridade de trânsito do Detran informando as modificações efetuadas no veículo e anexando fotos delas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 394,
@@ -5061,7 +5061,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "cassação da CNH",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 395,
@@ -5074,7 +5074,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "oxigênio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 396,
@@ -5087,7 +5087,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "2 anos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 397,
@@ -5100,7 +5100,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "chuva intensa à noite e luz do sol incidindo nos olhos do condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 398,
@@ -5113,7 +5113,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "altera a habilidade nas manobras com o veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 399,
@@ -5139,7 +5139,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "diminuir a velocidade antes da curva",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 401,
@@ -5152,7 +5152,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "freios deficientes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 402,
@@ -5165,7 +5165,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 403,
@@ -5204,7 +5204,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sinalizar com antecedência todas as manobras que for realizar",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 406,
@@ -5216,7 +5216,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reter as impurezas do óleo do motor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 407,
@@ -5242,7 +5242,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "predominantemente de escolares",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 409,
@@ -5255,7 +5255,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de alimentação de combustível, de ignição, de lubrificação, de arrefecimento e de escapamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 410,
@@ -5280,7 +5280,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "condutor deixa cair parte da carga do veículo ou descarta peças usadas utilizadas do veículo na via pública",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 412,
@@ -5292,7 +5292,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "luzes de posição acesas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 413,
@@ -5318,7 +5318,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "das velas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 415,
@@ -5331,7 +5331,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fazer uma refeição leve antes de dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 416,
@@ -5344,7 +5344,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o veículo sobre a calçada para o desembarque de um idoso",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 417,
@@ -5357,7 +5357,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "lisos (carecas) nas rodas dianteiras do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 418,
@@ -5370,7 +5370,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aos Conselhos Estaduais de Trânsito (Cetran)",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 419,
@@ -5383,7 +5383,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não receberá a CNH, mantendo a Permissão para Dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 420,
@@ -5409,7 +5409,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ser habilitado e ter 18 (dezoito) anos completos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 422,
@@ -5460,7 +5460,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aproximar-se o máximo possível do veículo que vai à sua frente, usando o freio para não colidir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 426,
@@ -5473,7 +5473,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o desmaio pode ser identificado pela ausência de respiração e pela presença de confusão mental com fala alterada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 427,
@@ -5486,7 +5486,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter o limite de velocidade da rodovia",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 428,
@@ -5499,7 +5499,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "luz",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 429,
@@ -5512,7 +5512,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "em vias urbanas e em qualquer distância",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 430,
@@ -5538,7 +5538,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aumentar a velocidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 432,
@@ -5551,7 +5551,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à noite, ao transitar por uma via, o veículo com o farol alto não causa cegueira momentânea no condutor que dirige no sentido oposto de tráfego",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 433,
@@ -5564,7 +5564,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduz a força dos freios",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 434,
@@ -5589,7 +5589,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "comete apenas infração, passível de multa de trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 436,
@@ -5602,7 +5602,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "retrovisor interno",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 437,
@@ -5615,7 +5615,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "191",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 438,
@@ -5628,7 +5628,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fazer a ultrapassagem, de preferência nos trechos em que existir a terceira faixa adicional para veículos lentos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 439,
@@ -5640,7 +5640,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é a soma da distância de reação mais a distância de frenagem",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 440,
@@ -5653,7 +5653,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 441,
@@ -5666,7 +5666,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com multa, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 442,
@@ -5679,7 +5679,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "redobrar a atenção e ligar a luz alta do farol",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 443,
@@ -5692,7 +5692,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "buzina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 444,
@@ -5705,7 +5705,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ereto, mantendo as pernas e braços esticados o máximo possível e com as duas mãos ao volante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 445,
@@ -5729,7 +5729,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "transporte de cargas e de motocicleta acima de 180 cc, como também de veículos elétricos de qualquer tipo, que exijam a",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 447,
@@ -5742,7 +5742,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "funcionamento adequado do motor de acordo com as normas de trânsito e as orientações do fabricante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 448,
@@ -5755,7 +5755,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "impaciência",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 449,
@@ -5768,7 +5768,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "retirar imediatamente o capacete de um motociclista caído na pista e levantá-lo caso esteja consciente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 450,
@@ -5794,7 +5794,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "infração grave, penalidade multa e apreensão do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 452,
@@ -5832,7 +5832,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de forma imprudente e com ousadia, a fim de defender-se dos demais condutores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 455,
@@ -5845,7 +5845,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "isolar o local para evitar novo acidente e evitar movimentar o motociclista do local onde está caído",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 456,
@@ -5871,7 +5871,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "1,50 m (um metro e cinquenta centímetros)",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 458,
@@ -5909,7 +5909,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "multa",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 461,
@@ -5922,7 +5922,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "braços ligeiramente dobrados e costas apoiadas no encosto do banco",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 462,
@@ -5935,7 +5935,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade e ficar atento a algum movimento dos pedestres",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 463,
@@ -5948,7 +5948,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "desgaste físico",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 464,
@@ -5961,7 +5961,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "direção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 465,
@@ -5974,7 +5974,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "desviar a visão para o centro da pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 466,
@@ -6000,7 +6000,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "catalisador inoperante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 468,
@@ -6013,7 +6013,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "remoção do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 469,
@@ -6026,7 +6026,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "habilidade ao dirigir; conhecimento de algumas regras de trânsito; bom senso",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 470,
@@ -6065,7 +6065,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apreensão do veículo",
     },
     answer: "?",
-    type: "PRIMEIROS_SOCORROS",
+    type: "LEGISLACAO",
   },
   {
     id: 473,
@@ -6090,7 +6090,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "realizar a manobra e deixar que os demais veículos se ajustem à sua ação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 475,
@@ -6132,7 +6132,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
   },
   {
     id: 478,
-    question: "o dispositivo",
+    question: "O condutor que utiliza o pisca-alerta de forma indevida age contra a segurança no trânsito. Isso acontece quando aciona o dispositivo",
     options: {
       A: "em situações de emergência",
       B: "com o veículo em movimento",
@@ -6140,7 +6140,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "em caso de imobilização do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 479,
@@ -6165,7 +6165,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "faróis desregulados; fadiga; pneus lisos (carecas); neblina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 481,
@@ -6229,7 +6229,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "falta de óleo no motor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 486,
@@ -6242,7 +6242,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "trafegar a favor do sol",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 487,
@@ -6319,7 +6319,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "área de escape",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 493,
@@ -6345,7 +6345,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sentar confortavelmente e com o braço para fora do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 495,
@@ -6358,7 +6358,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pista escorregadia; congestionamento; freios desregulados; neblina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 496,
@@ -6371,7 +6371,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "passar pelo sinal vermelho",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 497,
@@ -6396,7 +6396,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ruas e vias rurais",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 499,
@@ -6409,7 +6409,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "Código de Trânsito Brasileiro, por leis estaduais complementares e pelas Resoluções do Contran",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 500,
@@ -6421,7 +6421,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o silencioso em mau estado de funcionamento, produzindo ruído em nível elevado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 501,
@@ -6434,7 +6434,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "nível de fluido do freio dentro dos níveis mínimos exigidos pela especificação técnica do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 502,
@@ -6473,7 +6473,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículo motorizado, para transporte de carga, que exceda a 3.500 kg de peso bruto total (PBT)",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 505,
@@ -6486,7 +6486,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fazer pequenas refeições a bordo do veículo em movimento, utilizando para isso apenas uma das mãos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 506,
@@ -6499,7 +6499,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "leve",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 507,
@@ -6512,7 +6512,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "bloquear a via nos dois sentidos de tráfego",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 508,
@@ -6524,7 +6524,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "dirigir sob efeito de álcool",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 509,
@@ -6537,7 +6537,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "que dirige com atenção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 510,
@@ -6550,7 +6550,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "dirigir o veículo até o destino, aguardar o resfriamento do motor e abrir o reservatório para completar a água, se necessário",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 511,
@@ -6576,7 +6576,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acima da especificação do fabricante no eixo traseiro e abaixo no eixo dianteiro",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 513,
@@ -6589,7 +6589,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "utilizar pneus com dimensões superiores às recomendadas pelo fabricante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 514,
@@ -6602,7 +6602,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pelo alternador",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 515,
@@ -6615,7 +6615,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a 80 metros do veículo ou, aproximadamente, 80 passos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 516,
@@ -6628,7 +6628,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "do nível do óleo da direção hidráulica",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 517,
@@ -6653,7 +6653,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "8 anos para qualquer idade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 519,
@@ -6666,7 +6666,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "as lâmpadas queimadas das lanternas de posição traseira não são importantes para a segurança no trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 520,
@@ -6678,7 +6678,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "vias",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 521,
@@ -6691,7 +6691,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fratura do fêmur",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 522,
@@ -6704,7 +6704,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o coletivismo, o egoísmo e a supervalorização do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 523,
@@ -6730,7 +6730,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "movimentar a pessoa de forma a reduzir a hemorragia do local",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 525,
@@ -6743,7 +6743,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "colocar o osso no lugar e amarrar com talas improvisadas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 526,
@@ -6756,7 +6756,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sessenta dias",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 527,
@@ -6769,7 +6769,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículos motorizados, de duas ou três rodas, com ou sem carro lateral",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 528,
@@ -6782,7 +6782,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "faróis desligados",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 529,
@@ -6795,7 +6795,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sistema de freios",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 530,
@@ -6807,7 +6807,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não está relacionada com as normas de circulação no trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 531,
@@ -6820,7 +6820,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "direção passiva",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 532,
@@ -6832,7 +6832,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "caixa de câmbio, válvulas e pistões",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 533,
@@ -6845,7 +6845,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "nível do óleo do motor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 534,
@@ -6858,7 +6858,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "clima",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 535,
@@ -6871,7 +6871,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de dirigir e de se comportar no trânsito com ousadia e impetuosidade para preservar sua própria vida e a dos ocupantes do seu veículo, bem como o seu patrimônio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 536,
@@ -6884,7 +6884,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "colaborar para o fluxo livre de veículos na via reduzindo o número de curiosos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 537,
@@ -6897,7 +6897,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "40 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 538,
@@ -6910,7 +6910,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "advertência",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 539,
@@ -6923,7 +6923,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "organizar o fluxo de veículos em sentidos opostos de tráfego",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 540,
@@ -6936,7 +6936,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículo automotor destinado a realizar trabalhos agrícolas, de construção e de pavimentação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 541,
@@ -6948,7 +6948,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "remover, imediatamente, as vítimas do local",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 542,
@@ -6961,7 +6961,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "contínuo, tracejado ou seccionado, balizadores e símbolos e legendas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 543,
@@ -6986,7 +6986,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "tempo, via, trânsito, veículo e conhecimento da legislação de trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 545,
@@ -6998,7 +6998,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conhecer somente seus direitos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 546,
@@ -7011,7 +7011,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "colocar o triângulo a 2 metros de distância do local do acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 547,
@@ -7024,7 +7024,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "injeção eletrônica",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 548,
@@ -7036,7 +7036,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "eletricidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 549,
@@ -7049,7 +7049,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "anima a festa com os amigos na rua, mantendo alto o volume de músicas do sistema de som do veículo durante a madrugada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 550,
@@ -7062,7 +7062,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter-se próximo ao veículo à frente, observar o comportamento do condutor e fazer uso do freio adequadamente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 551,
@@ -7075,7 +7075,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "utilizar o celular, desde que em vias urbanas locais, já que essa forma não apresenta risco de acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 552,
@@ -7100,7 +7100,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "descortesia, egoísmo e obediência às leis",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 554,
@@ -7113,7 +7113,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "semafórica",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 555,
@@ -7139,7 +7139,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "correia de transmissão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 557,
@@ -7152,7 +7152,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "prosseguir a viagem com velocidade reduzida, mantendo acionado o pisca-alerta",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 558,
@@ -7165,7 +7165,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manutenção preventiva e troca do aditivo do radiador",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 559,
@@ -7178,7 +7178,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "em rodovias de pista dupla com canteiro central",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 560,
@@ -7191,7 +7191,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sinalizar com antecedência sua intenção de mudar de faixa, além de olhar nos espelhos retrovisores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 561,
@@ -7204,7 +7204,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter o radiador limpo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 562,
@@ -7216,7 +7216,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pela bomba de combustível",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 563,
@@ -7241,7 +7241,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "curso de reciclagem e advertência verbal",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 565,
@@ -7254,7 +7254,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 566,
@@ -7267,7 +7267,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "no intuito de preservar a si, os acompanhantes, o veículo e outros usuários da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 567,
@@ -7280,7 +7280,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "grave ou gravíssima, ou não seja reincidente em infração média",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 568,
@@ -7293,7 +7293,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pneus, freios, sistema de iluminação e suspensão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 569,
@@ -7306,7 +7306,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "triângulo, macaco, pneu sobressalente e buzina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 570,
@@ -7319,7 +7319,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "erros e acidentes graves",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 571,
@@ -7331,7 +7331,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "perde a aderência do pneu com o solo, causada por água sobre a pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 572,
@@ -7344,7 +7344,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "média",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 573,
@@ -7357,7 +7357,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "mistura da umidade com o pó sobre o pavimento, reduzindo a aderência entre o pneu e a pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 574,
@@ -7382,7 +7382,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a marcha reduzida",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 576,
@@ -7394,7 +7394,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "guarda distância de segurança entre o veículo que dirige e o que segue à sua frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 577,
@@ -7407,7 +7407,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "dirija sempre com atenção para poder prever o que fazer e tomar as decisões certas para evitar acidentes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 578,
@@ -7420,7 +7420,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "do bico injetor e da bobina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 579,
@@ -7433,7 +7433,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sinalizar o local, chamar a equipe de socorro e protegê-la com um agasalho",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 580,
@@ -7446,7 +7446,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "leve",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 581,
@@ -7459,7 +7459,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o controle emocional",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 582,
@@ -7484,7 +7484,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aumento da circulação de bicicletas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 584,
@@ -7496,7 +7496,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não requer regulamentação e pode ser feita no período das 22 horas às 6 horas, em qualquer via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 585,
@@ -7509,7 +7509,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deixar outra pessoa dirigir o veículo, mesmo que essa não seja habilitada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 586,
@@ -7522,7 +7522,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o motor está com rotação insuficiente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 587,
@@ -7535,7 +7535,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "gravíssima, com nove pontos na CNH do condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 588,
@@ -7561,7 +7561,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "multa, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 590,
@@ -7574,7 +7574,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sem que o veículo esteja devidamente licenciado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 591,
@@ -7587,7 +7587,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o baixo nível do óleo do sistema de transmissão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 592,
@@ -7599,7 +7599,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pelo gerador primário e pela bobina",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 593,
@@ -7611,7 +7611,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "usar pneus com pressão de ar abaixo da especificação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 594,
@@ -7624,7 +7624,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículo motorizado, para transporte de passageiros, que tenha mais de oito lugares sem contar o condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 595,
@@ -7636,7 +7636,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com canteiro central",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 596,
@@ -7649,7 +7649,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "em vias urbanas arteriais e coletoras",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 597,
@@ -7662,7 +7662,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedestre",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 598,
@@ -7675,7 +7675,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "defeito no sistema de tração do diferencial",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 599,
@@ -7688,7 +7688,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "embreagem e seu pedal",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 600,
@@ -7700,7 +7700,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduz a velocidade ao perceber que vai ser ultrapassado por outro veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 601,
@@ -7713,7 +7713,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "chuva, sono e buracos na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 602,
@@ -7739,7 +7739,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "buzina de forma estridente ao se aproximar de ciclista à sua frente para evitar atropelamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 604,
@@ -7778,7 +7778,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "via coletora",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 607,
@@ -7804,7 +7804,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acelerador ou pedal",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 609,
@@ -7830,7 +7830,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o veículo em local sujeito a risco de acidentes para conversar com pessoas conhecidas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 611,
@@ -7856,7 +7856,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade e manter distância de seguimento do veiculo à frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 613,
@@ -7869,7 +7869,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a velocidade e frear com intensidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 614,
@@ -7882,7 +7882,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 615,
@@ -7895,7 +7895,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conhecimento de mecânica veicular e ousadia",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 616,
@@ -7908,7 +7908,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "Conama",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 617,
@@ -7960,7 +7960,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a água pressionada por uma bomba",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 621,
@@ -7985,7 +7985,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "retenção da moticicleta até apresentação de condutor habilitado na categoria permitida",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 623,
@@ -8010,7 +8010,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "se observam lixeiras apropriadas e pisos limpos no interior e nos arredores de lanchonetes ou restaurantes à beira da estrada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 625,
@@ -8023,7 +8023,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "entre 22h00 e 6h00",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 626,
@@ -8036,7 +8036,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "falta de alinhamento e regulagem dos faróis",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 627,
@@ -8048,7 +8048,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "suspensão e amortecedores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 628,
@@ -8060,7 +8060,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "amarela, vermelha, branca, azul e preta",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 629,
@@ -8073,7 +8073,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "retenção do veículo até o saneamento da irregularidade ou a apresentação de condutor habilitado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 630,
@@ -8086,7 +8086,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o condutor infrator identificado em formulário próprio e enviado no prazo preestabelecido",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 631,
@@ -8112,7 +8112,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter-se em sua faixa de tráfego e reduzir ligeiramente a velocidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 633,
@@ -8137,7 +8137,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "admissão, lubrificação, explosão e escapamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 635,
@@ -8150,7 +8150,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "faróis, freio e pisca-alerta, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 636,
@@ -8174,7 +8174,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ano, modelo do veículo, regulagem do motor e troca do filtro do ar condicionado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 638,
@@ -8187,7 +8187,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "as velas de ignição",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 639,
@@ -8213,7 +8213,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "piscar os faróis algumas vezes para alertar os demais condutores e fazer a conversão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 641,
@@ -8239,7 +8239,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "faróis alto e baixo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 643,
@@ -8265,7 +8265,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "neblina intensa à noite e pista com buracos, depressões e asfalto deteriorado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 645,
@@ -8277,7 +8277,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a manutenção preventiva dos componentes do veículo deve ser feita quando da sua quebra ou paralisação do seu funcionamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 646,
@@ -8290,7 +8290,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "10 anos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 647,
@@ -8303,7 +8303,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manutenção periódica do escapamento e do silencioso",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 648,
@@ -8316,7 +8316,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "repreensão ao condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 649,
@@ -8329,7 +8329,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estaciona em vaga de idoso, mas retira seu veículo prontamente assim que solicitado pela autoridade de trânsito ou por outro usuário",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 650,
@@ -8342,7 +8342,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "incorreto, pois o recomendável para a segurança de todos é a utilização apenas das luzes de posição",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 651,
@@ -8354,7 +8354,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ultrapassar outro veículo onde a marca da sinalização viária é amarela e tracejada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 652,
@@ -8367,7 +8367,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "tracejadas, simples ou duplas, na cor branca",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 653,
@@ -8380,7 +8380,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "vento forte e chuva de granizo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 654,
@@ -8393,7 +8393,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "suspensão do direito de dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 655,
@@ -8405,7 +8405,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "evitar que ocorram acidentes de trânsito, já que o uso do cinto de segurança demonstra o quanto o motorista é cuidadoso ao dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 656,
@@ -8431,7 +8431,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "suspensão do direito de dirigir",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 658,
@@ -8457,7 +8457,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sensor de temperatura da água",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 660,
@@ -8470,6 +8470,6 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "entra em discussão no trânsito a todo instante",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
 ];
