@@ -346,7 +346,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "quanto mais eficientes forem os freios, mais segurança haverá nas frenagens",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 28,
@@ -359,7 +359,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não deve retornar na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 29,
@@ -372,7 +372,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "gravíssima",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 30,
@@ -384,7 +384,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aumenta sua vida útil",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 31,
@@ -396,7 +396,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "situações normais no trânsito que, por distração do condutor, podem gerar risco e até acidentes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 32,
@@ -409,7 +409,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao alargamento da pista à esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 33,
@@ -422,7 +422,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "em dia claro, com céu azul e sol",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 34,
@@ -435,7 +435,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "via e trânsito",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 35,
@@ -448,7 +448,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ruas, avenidas, rodovias e estradas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 36,
@@ -461,7 +461,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "via de trânsito rápido",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 37,
@@ -473,7 +473,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conversão à direita no cruzamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 38,
@@ -486,7 +486,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "confluência com via lateral, com possibilidade de entrada de veículos à direita",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 39,
@@ -499,7 +499,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conta-giros",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 40,
@@ -511,7 +511,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "melhora a visão e a percepção de riscos do que ocorre no entorno",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 41,
@@ -524,7 +524,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o pronto atendimento da(s) vítima(s) em substituição às equipes da saúde",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 42,
@@ -537,7 +537,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a velocidade e segurar o volante levemente, a fim de reduzir o risco de capotagem",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 43,
@@ -550,7 +550,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há bifurcação da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 44,
@@ -563,7 +563,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a conservação inadequada da via, com presença de buracos e sinalização apagada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 45,
@@ -576,7 +576,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "abastecer o veículo com combustíveis de procedência comprovada e efetuar revisões periódicas reduzem a possibilidade de produção de gases poluentes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 46,
@@ -589,7 +589,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação de automóveis",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 47,
@@ -602,7 +602,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "regulamentação, advertência e indicação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 48,
@@ -615,7 +615,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "multa",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 49,
@@ -628,7 +628,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o pescoço",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 50,
@@ -641,7 +641,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acionar buzina ou sinal sonoro",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 51,
@@ -654,7 +654,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "transmissão",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 52,
@@ -667,7 +667,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "gravíssima",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 53,
@@ -680,7 +680,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "embreagem",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 54,
@@ -693,7 +693,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade, pois se trata de área de cruzamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 55,
@@ -706,7 +706,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estreitamento de pista à direita",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 56,
@@ -719,7 +719,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a 40 metros do veículo ou, aproximadamente, 40 passos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "PRIMEIROS_SOCORROS",
   },
   {
     id: 57,
@@ -732,7 +732,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "usa, sob chuva, a luz alta do veículo e mantém distância de seguimento do veículo à sua frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 58,
@@ -744,7 +744,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "orientar os usuários da via quanto ao seu comportamento adequado e seguro no trânsito, podendo conter mensagens que reforcem normas gerais de circulação e conduta",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 59,
@@ -757,7 +757,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "serviço telefônico, restaurante e terminal ferroviário",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 60,
@@ -770,7 +770,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "advertência",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 61,
@@ -783,7 +783,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "50 km/h",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 62,
@@ -795,7 +795,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "transitar com o veículo com excesso de carga",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 63,
@@ -808,7 +808,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "café sem açúcar ou bebidas industrializadas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "CIDADANIA",
   },
   {
     id: 64,
@@ -821,7 +821,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "multa e apreensão da CNH",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 65,
@@ -834,7 +834,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "do Denatran",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MEIO_AMBIENTE",
   },
   {
     id: 66,
@@ -847,7 +847,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 67,
@@ -860,7 +860,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "distinguir os diversos tipos e modelos de pneus e de marcas de fabricantes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "MECANICA_BASICA",
   },
   {
     id: 68,
@@ -868,11 +868,11 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     options: {
       A: "acionar o pisca-alerta, ainda com o veículo na pista, reduzir a velocidade, entrar no acostamento e colocar o triângulo de segurança",
       B: "entrar no acostamento, na mesma velocidade em que vinha para não prejudicar os demais veículos, parar e, em seguida, acionar as luzes do pisca-alerta",
-      C: "acionar a luz indicadora de direção e entrar rapidamente no acostamento; ao finalizar a manobra, acionar as luzes do piscaalerta",
+      C: "acionar a luz indicadora de direção e entrar rapidamente no acostamento; ao finalizar a manobra, acionar as luzes do pisca alerta",
       D: "acionar a luz indicadora de direção, reduzir a velocidade, entrar no acostamento, colocar o triângulo de segurança e ligar o pisca-alerta",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "DIRECAO_DEFENSIVA",
   },
   {
     id: 69,
@@ -885,7 +885,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "terminal rodoviário, borracheiro, informação turística e pedágio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 70,
@@ -923,7 +923,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aeroporto",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 73,
@@ -949,7 +949,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é obrigatório seguir em frente ou à esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 75,
@@ -1090,7 +1090,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "regulamentar os pontos turísticos da região e alertar os usuários",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 86,
@@ -1127,7 +1127,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deixando de dar passagem aos veículos precedidos de batedores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 89,
@@ -1140,7 +1140,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "poderá transitar com caminhões a partir da placa",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 90,
@@ -1217,7 +1217,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedestres em circulação à direita da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 96,
@@ -1368,7 +1368,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à pista irregular",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 108,
@@ -1407,7 +1407,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a velocidade, pois os amortecedores do veículo compensam o desnível",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 111,
@@ -1420,7 +1420,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "atravessando a via devagar e com cuidado",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 112,
@@ -1472,7 +1472,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "área com crianças brincando na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 116,
@@ -1575,7 +1575,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "alto índice de atropelamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 124,
@@ -1741,7 +1741,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a junção com duas vias laterais, a primeira à direita, devido à possibilidade de acesso de veículos na pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 137,
@@ -1932,7 +1932,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pode seguir em frente, desde que more naquela via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 152,
@@ -1958,7 +1958,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pronto-socorro, aeroporto e terminal rodoviário",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 154,
@@ -1997,7 +1997,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedestres em circulação à esquerda da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 157,
@@ -2022,7 +2022,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "lombada física na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 159,
@@ -2124,7 +2124,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há um declive à direita na via à frente, com risco de acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 167,
@@ -2201,7 +2201,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "projeção de cascalho na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 173,
@@ -2265,7 +2265,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedestres devem andar lado a lado com os ciclistas na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 178,
@@ -2304,7 +2304,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "preferência de acesso em rotatória",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 181,
@@ -2382,7 +2382,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via é sinuosa à esquerda, o que favorece a ocorrência de acidentes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 187,
@@ -2408,7 +2408,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apesar de proibido o trânsito de veículos de tração animal, o condutor deve manter a atenção em relação ao possível desrespeito da sinalização",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 189,
@@ -2421,7 +2421,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "média",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 190,
@@ -2434,7 +2434,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "seguir em frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 191,
@@ -2447,7 +2447,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via tem limitação de peso máximo por eixo de 2 toneladas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 192,
@@ -2460,7 +2460,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "redobrar a atenção, pois é possível que ocorra a presença de carrinhos de mão circulando de forma irregular no local",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 193,
@@ -2525,7 +2525,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via apresenta curva à direita",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 198,
@@ -2616,7 +2616,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ônibus elétrico",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 205,
@@ -2668,7 +2668,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estar alerta, pois há uma via sem saída à esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 209,
@@ -2693,7 +2693,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "calibragem dos pneus",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 211,
@@ -2706,7 +2706,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com mata ao lado sujeita a incêndio que pode comprometer a visibilidade do condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 212,
@@ -2823,7 +2823,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não deverá seguir em frente, pois a via é de circulação exclusiva de ônibus",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 221,
@@ -2849,7 +2849,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estão proibidos de parar no acostamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 223,
@@ -2901,7 +2901,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "área de borracharia",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 227,
@@ -2977,7 +2977,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com duas ou mais vias",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 233,
@@ -3003,7 +3003,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não há necessidade de manter velocidade compatível com o local",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 235,
@@ -3016,7 +3016,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à entrada e saída única de veículos na via à frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 236,
@@ -3054,7 +3054,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à bifurcação da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 239,
@@ -3080,7 +3080,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ônibus urbanos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 241,
@@ -3144,7 +3144,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve virar à direita",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 246,
@@ -3157,7 +3157,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao peso máximo da carga transportada, pois a via à frente tem limitação de peso",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 247,
@@ -3235,7 +3235,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "confluência com via lateral, com possibilidade de entrada de veículos à esquerda, com risco de acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 253,
@@ -3287,7 +3287,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "entroncamento com via lateral à direita, com risco de acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 257,
@@ -3338,7 +3338,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "posto de alfândega",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 261,
@@ -3389,7 +3389,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "controle da velocidade por câmeras",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 265,
@@ -3505,7 +3505,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação exclusiva de tratores e máquinas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 274,
@@ -3543,7 +3543,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é permitida a circulação de ciclistas e de pedestres",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 277,
@@ -3841,7 +3841,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade, pois a via sofrerá estreitamento no lado esquerdo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 300,
@@ -3867,7 +3867,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apesar de proibido o trânsito de bicicletas, o condutor deve manter a atenção em relação ao desrespeito da sinalização",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 302,
@@ -3880,7 +3880,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "vistoriar, registrar e emplacar veículos, legalizando-os",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 303,
@@ -3919,7 +3919,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apesar de proibido o trânsito de tratores e máquinas, o condutor deve manter a atenção em relação ao eventual desrespeito da sinalização",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 306,
@@ -3971,7 +3971,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a tara máxima do veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 310,
@@ -4163,7 +4163,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "terminal de passageiros",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 325,
@@ -4176,7 +4176,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acessar a via, não parando em hipótese alguma, pois a placa indica acesso preferencial",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 326,
@@ -4252,7 +4252,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "advertir os condutores sobre as condições irregulares e imprevistas na via mudando a direção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 332,
@@ -4304,7 +4304,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "engate para reboque",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 336,
@@ -4329,7 +4329,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ser multado se parar e estacionar",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 338,
@@ -4355,7 +4355,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade, somente se a pista estiver molhada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 340,
@@ -4432,7 +4432,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de canalização, inscrições no pavimento e dispositivos auxiliares",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 346,
@@ -4458,7 +4458,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "via interditada para área de lazer",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 348,
@@ -4483,7 +4483,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a trecho da via com estreitamento da pista adiante, pois isso limita a passagem de veículos maiores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 350,
@@ -4509,7 +4509,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "local sinalizado por placa de regulamentação específica",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 352,
@@ -4649,7 +4649,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ponte móvel",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 363,
@@ -4675,7 +4675,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "às condições escorregadias da via à frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 365,
@@ -4701,7 +4701,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de entrada e saída de veículos escolares",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 367,
@@ -4727,7 +4727,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve transportar carga dentro do limite mínimo de peso regulamentado na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 369,
@@ -4740,7 +4740,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "exclusivamente à esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 370,
@@ -4779,7 +4779,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a buzina pode ser acionada durante o dia",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 373,
@@ -4792,7 +4792,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via permite veículos com altura superior a 3 metros",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 374,
@@ -4804,7 +4804,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação proibida de ônibus",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 375,
@@ -4828,7 +4828,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a circulação de motocicletas, motonetas e ciclomotores",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 377,
@@ -4841,7 +4841,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "possibilidade de travessia de gado na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 378,
@@ -4854,7 +4854,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "retenção do veículo para regularização, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 379,
@@ -4893,7 +4893,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "infração de trânsito e uma atitude não cidadã do condutor",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 382,
@@ -4906,7 +4906,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "curva em S à esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 383,
@@ -4983,7 +4983,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é proibido seguir em frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 389,
@@ -5022,7 +5022,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há um cruzamento, entre duas vias, sem semáforos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 392,
@@ -5126,7 +5126,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "devido à presença de pista irregular",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 400,
@@ -5178,7 +5178,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via tem limitação de largura máxima (3 metros) para os veículos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 404,
@@ -5191,7 +5191,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circular no sentido contrário ao dos ponteiros do relógio",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 405,
@@ -5267,7 +5267,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "identificar área de estacionamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 411,
@@ -5305,7 +5305,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "luz de marcha a ré, lanterna de posição, macaco, luz interna e freios do tipo ABS",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 414,
@@ -5396,7 +5396,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "término da pista com divisória",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 421,
@@ -5422,7 +5422,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao declive do terreno e à possibilidade de existirem veículos em ambos os sentidos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 423,
@@ -5435,7 +5435,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "contramão de direção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 424,
@@ -5447,7 +5447,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é exclusiva para os moradores do local",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 425,
@@ -5525,7 +5525,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve mudar de faixa ou pista de trânsito da esquerda para a direita",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 431,
@@ -5576,7 +5576,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "alertar os usuários da via sobre atrativos turísticos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 435,
@@ -5717,7 +5717,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sentido único de direção",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 446,
@@ -5781,7 +5781,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "entroncamento, com via lateral à esquerda, com risco de acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 451,
@@ -5820,7 +5820,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "um trecho sem acostamento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 454,
@@ -5858,7 +5858,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a alteração do sentido único para sentido duplo de circulação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 457,
@@ -5883,7 +5883,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "semáforo em cruzamento perigoso à frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 459,
@@ -5896,7 +5896,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao acesso de veículos pela via lateral à esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 460,
@@ -5987,7 +5987,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há obras na pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 467,
@@ -6039,7 +6039,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter-se atento às ordens dos agentes de polícia, pois se trata de área militar, onde a parada é obrigatória",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 471,
@@ -6077,7 +6077,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação proibida de bicicletas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 474,
@@ -6103,7 +6103,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sentido único de direção na via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 476,
@@ -6115,7 +6115,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "está obrigado a circular pelo lado direito da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 477,
@@ -6128,7 +6128,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ingressar imediatamente na faixa principal da rodovia, desde que o veículo esteja na velocidade máxima imposta pela via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 478,
@@ -6152,7 +6152,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "trecho da via em aclive acentuado; nessa condição, o condutor deve utilizar marcha reduzida",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 480,
@@ -6177,7 +6177,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conta com uma faixa exclusiva, à frente, do lado esquerdo da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 482,
@@ -6190,7 +6190,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de 4 em 4 anos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 483,
@@ -6203,7 +6203,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: '21 anos e seja habilitado na categoria "E"',
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 484,
@@ -6216,7 +6216,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não ter cometido nenhuma infração média ou gravíssima durante os últimos 12 (doze) meses",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 485,
@@ -6254,7 +6254,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apenas quando houver sinalização de regulamentação",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 488,
@@ -6267,7 +6267,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via apresenta curva fechada à direita, o que favorece a ocorrência de acidentes",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 489,
@@ -6280,7 +6280,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "um cruzamento com ferrovia, com cancela",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 490,
@@ -6293,7 +6293,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acidente na pista",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 491,
@@ -6306,7 +6306,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "suspensão do direito de dirigir, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 492,
@@ -6332,7 +6332,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "título de eleitor, apenas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 494,
@@ -6384,7 +6384,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "área de estacionamento, pronto-socorro e abastecimento",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 498,
@@ -6447,7 +6447,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "hotel, serviço mecânico e área de camping",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 503,
@@ -6460,7 +6460,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "proibida na via à frente devido ao risco de acidente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 504,
@@ -6563,7 +6563,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "curva sinuosa",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 512,
@@ -6641,7 +6641,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pista sinuosa",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 518,
@@ -6717,7 +6717,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à presença de redutores de velocidade",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 524,
@@ -6974,7 +6974,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acima da indicada pela placa nos cruzamentos",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 544,
@@ -7126,7 +7126,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "grave, com sete pontos na carteira",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 556,
@@ -7369,7 +7369,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sentido único de circulação da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 575,
@@ -7472,7 +7472,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "existência de área de preservação ambiental",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 583,
@@ -7548,7 +7548,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "na via, deve ser mantida, entre os veículos, a distância mínima indicada",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 589,
@@ -7752,7 +7752,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "obrigatoriamente para a frente",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 605,
@@ -7765,7 +7765,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "trânsito de ciclistas",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 606,
@@ -7791,7 +7791,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "da via à frente ser sinuosa, com a primeira curva à esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 608,
@@ -7817,7 +7817,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "dirigir normalmente, pois a placa indica que não há obra na pista, nem mesmo pedestres",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 610,
@@ -7843,7 +7843,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pode estacionar na via desde que esteja em operações de carga ou descarga no veículo",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 612,
@@ -7921,7 +7921,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "início de pista dupla",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 618,
@@ -7947,7 +7947,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve manter a circulação do veículo à direita, deixando livre a faixa da esquerda",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 620,
@@ -8162,7 +8162,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "vias de trânsito rápido",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 637,
@@ -8226,7 +8226,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "bifurcação da via",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 642,
@@ -8418,7 +8418,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "desnível da via com ferrovia, com ou sem barreira",
     },
     answer: "?",
-    type: "NAO_IDENTIFICADO",
+    type: "LEGISLACAO",
   },
   {
     id: 657,
