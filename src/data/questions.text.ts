@@ -2877,9 +2877,7 @@ B) ingressar imediatamente na faixa principal da rodovia, aumentando gradativame
 C) ingressar na faixa de aceleração com a velocidade máxima imposta pela via, desde que não exista a placa "Dê a preferência"
 D) ingressar imediatamente na faixa principal da rodovia, desde que o veículo esteja na velocidade máxima imposta pela via
 
-O condutor que utiliza o pisca-alerta de forma indevida age contra a segurança no trânsito. Isso acontece quando aciona
-
-o dispositivo
+O condutor que utiliza o pisca-alerta de forma indevida age contra a segurança no trânsito. Isso acontece quando aciona o dispositivo
 A) em situações de emergência
 B) com o veículo em movimento
 C) em atendimento à determinação da sinalização da via
