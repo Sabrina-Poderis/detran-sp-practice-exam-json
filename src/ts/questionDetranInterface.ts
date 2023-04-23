@@ -9,6 +9,7 @@ export interface QuestionDetranInterface {
   };
   answer: QuestionDetranOptions;
   type: QuestionDetranType;
+  checked?: boolean;
 }
 
 type QuestionDetranType = 
