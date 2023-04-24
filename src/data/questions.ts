@@ -1960,7 +1960,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "pronto-socorro, aeroporto e informação turística",
       D: "pronto-socorro, aeroporto e terminal rodoviário",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2398,7 +2399,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "usa a buzina apenas quando é necessário alertar outros condutores ou pedestres",
       D: "liga aparelhos sonoros no interior do veículo em volumes muito altos",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "MEIO_AMBIENTE",
   },
   {
@@ -2619,7 +2621,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "bonde",
       D: "ônibus elétrico",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2762,7 +2765,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ultrapassagem e ao deslocamento dos veículos de maior velocidade",
       D: "passagem de veículos de transporte coletivo",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2943,7 +2947,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "distância de frenagem",
       D: "distância de seguimento",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -3729,7 +3734,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "gravíssima",
       D: "leve",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4078,7 +4084,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "duas multas",
       D: "apreensão do veículo",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -5392,7 +5399,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "deverá passar por curso de reciclagem",
       D: "não receberá a CNH, mantendo a Permissão para Dirigir",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -5959,7 +5967,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "sono",
       D: "desgaste físico",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -6600,7 +6609,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "manter as rodas dos pneus cromadas",
       D: "utilizar pneus com dimensões superiores às recomendadas pelo fabricante",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -6831,7 +6841,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "direção agressiva",
       D: "direção passiva",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -7804,7 +7815,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "da pista da via à frente ser escorregadia",
       D: "da via à frente ser sinuosa, com a primeira curva à esquerda",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -8483,7 +8495,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "respeita a legislação de trânsito",
       D: "entra em discussão no trânsito a todo instante",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "CIDADANIA",
   },
 ];
