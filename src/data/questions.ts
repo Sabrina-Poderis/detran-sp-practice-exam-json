@@ -12,6 +12,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "velas e ventilação circulante",
     },
     answer: "A",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -1382,7 +1383,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "pavimento em bom estado e acostamento em desnível",
       D: "longos trechos de retas e pontes estreitas",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -1537,7 +1539,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "3 metros",
       D: "2 metros",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -1921,7 +1924,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "aumentar a velocidade e mudar de faixa imediatamente, não necessitando sinalizar",
       D: "manter a velocidade e mudar de faixa imediatamente, não necessitando sinalizar",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -2050,7 +2054,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "seguir a intuição, quando for motorista experiente",
       D: "enquanto dirige, cadastrar o destino no GPS",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -2452,7 +2457,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "a via permite passagem de automóveis com largura menor que 2 metros",
       D: "a via tem limitação de peso máximo por eixo de 2 toneladas",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2608,7 +2614,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "jogar lixo ou qualquer objeto na rua",
       D: "fazer a manutenção e a regulagem periódica do motor",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "MEIO_AMBIENTE",
   },
   {
@@ -2686,7 +2693,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "aumentam a autoconfiança do condutor e sua habilidade ao dirigir",
       D: "melhoram a percepção e aliviam qualquer tipo de desconforto do condutor",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -3128,7 +3136,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "apreensão da CNH",
       D: "apreensão do veículo",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -3257,7 +3266,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "reduzir a velocidade antes da curva, movimentar o volante de forma suave e acelerar gradativamente",
       D: "acelerar no início da curva para aumentar a aderência dos pneus e segurar o volante com as duas mãos",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -3501,7 +3511,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "iniciar a contagem a partir da curva",
       D: "iniciar a contagem a partir do local do acidente, acrescentando 10 passos largos",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -3540,7 +3551,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "chuva, granizo, obras na via ou largura de pista",
       D: "granizo, vento, obras na via ou neblina",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -3799,7 +3811,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "o documento de habilitação expedida por meio físico e/ou digital",
       D: "o Manual do Proprietário entregue pelo fabricante",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4176,7 +4189,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "terminal rodoviário",
       D: "terminal de passageiros",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4524,7 +4538,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "qualquer local da via, exceto a menos de 5 metros da esquina",
       D: "local sinalizado por placa de regulamentação específica",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -5658,7 +5673,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "é a distância de segurança entre o seu veículo e o que segue imediatamente à sua frente",
       D: "é a soma da distância de reação mais a distância de frenagem",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -5915,7 +5931,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ao cruzamento de duas vias não sinalizado",
       D: "ao acesso de veículos pela via lateral à esquerda",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -6210,7 +6227,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "de 3 em 3 anos",
       D: "de 4 em 4 anos",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -7084,7 +7102,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "acionar o farol alto quando se aproximar do veículo à frente para garantir visibilidade suficiente",
       D: "manter-se próximo ao veículo à frente, observar o comportamento do condutor e fazer uso do freio adequadamente",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -7213,7 +7232,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "observar constantemente a presença de motos, utilizando os espelhos retrovisores interno e externos",
       D: "sinalizar com antecedência sua intenção de mudar de faixa, além de olhar nos espelhos retrovisores",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -7763,7 +7783,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "fica atento ao movimento de pedestres atravessando ou andando na pista de rolamento",
       D: "buzina de forma estridente ao se aproximar de ciclista à sua frente para evitar atropelamento",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -7907,7 +7928,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "clima e/ou ambiente",
       D: "via",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -8111,7 +8133,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "o proprietário da empresa",
       D: "o condutor infrator identificado em formulário próprio e enviado no prazo preestabelecido",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -8124,7 +8147,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "veículo",
       D: "condutor",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -8150,7 +8174,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "multa e suspensão do direito de dirigir",
       D: "multa, apenas",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
