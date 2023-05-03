@@ -26,7 +26,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "educação, habilidades, displicência, cooperação e solidariedade",
     },
     answer: "A",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 3,
@@ -219,7 +219,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "D",
     checked: true,
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 18,
@@ -518,7 +518,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "melhora a visão e a percepção de riscos do que ocorre no entorno",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 41,
@@ -802,7 +802,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "transitar com o veículo com excesso de carga",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 63,
@@ -815,7 +815,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "café sem açúcar ou bebidas industrializadas",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 64,
@@ -842,7 +842,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "do Denatran",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 66,
@@ -918,7 +918,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "escapamento aberto e aparelhos de som",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 72,
@@ -1074,7 +1074,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "usa de maneira ostensiva a buzina para pressionar os mais lentos na travessia",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 84,
@@ -1215,7 +1215,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "papelão",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 95,
@@ -1265,7 +1265,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "cassação da CNH",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 99,
@@ -1511,7 +1511,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "constantemente todo o ambiente no trânsito à sua volta",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 118,
@@ -1536,7 +1536,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "controle emocional e respeito ao cidadão, apenas",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 120,
@@ -2134,7 +2134,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aguardar que concluam a travessia",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 166,
@@ -2420,7 +2420,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "D",
     checked: true,
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 188,
@@ -2499,7 +2499,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "monóxido de carbono",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 194,
@@ -2564,7 +2564,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "as queimadas",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 199,
@@ -2616,7 +2616,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acondiciona dentro do veículo o lixo produzido por ele ou pelos passageiros e o descarta em local apropriado",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 203,
@@ -2630,7 +2630,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "C",
     checked: true,
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 204,
@@ -2775,7 +2775,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "fazer a manutenção periódica do motor do veículo",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 215,
@@ -2945,7 +2945,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "usar de ousadia e agressividade suficientes para se proteger de riscos e de imprevisibilidades no trânsito",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 228,
@@ -3126,7 +3126,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "peças do veículo já utilizadas",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 242,
@@ -3501,7 +3501,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "alterar as condições de regulagem do motor para aumentar a sua potência",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 271,
@@ -3554,7 +3554,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "mantém ligado o motor do veículo, estando o trânsito paralisado dentro de um túnel",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 275,
@@ -3619,7 +3619,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "radiador",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 280,
@@ -3685,7 +3685,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "C",
     checked: true,
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 285,
@@ -3750,7 +3750,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pouca noção de higiene e limpeza",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 290,
@@ -3999,7 +3999,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pensem primeiro em si mesmos e depois no bem coletivo",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 309,
@@ -4063,7 +4063,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com multa, apenas",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 314,
@@ -4127,7 +4127,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ser atento e antecipar-se às Situação de Risco",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 319,
@@ -4140,7 +4140,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao abrir o sinal verde do semáforo, avançar o veículo mesmo tendo pedestre concluindo a travessia",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 320,
@@ -4234,7 +4234,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "relacionada com a maneira de dirigir do condutor e que não tem relação com o meio ambiente",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 327,
@@ -4247,7 +4247,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "as normas de proteção ao meio ambiente não dizem respeito aos veículos automotores",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 328,
@@ -4571,7 +4571,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o veículo antes da faixa e dar preferência à travessia do pedestre",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 353,
@@ -4712,7 +4712,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "age preocupado, primeiramente, com a segurança de todos",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 364,
@@ -4803,7 +4803,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sabe contornar situações de risco criadas por ele mesmo ao deixar de observar alguma norma",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 371,
@@ -4970,7 +4970,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "que não tenham concluído a travessia, quando houver mudança de sinal",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 384,
@@ -5126,7 +5126,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "oxigênio",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 396,
@@ -5257,7 +5257,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sinalizar com antecedência todas as manobras que for realizar",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 406,
@@ -5333,7 +5333,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "condutor deixa cair parte da carga do veículo ou descarta peças usadas utilizadas do veículo na via pública",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 412,
@@ -5397,7 +5397,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o veículo sobre a calçada para o desembarque de um idoso",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 417,
@@ -5814,7 +5814,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "impaciência",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 449,
@@ -6483,7 +6483,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o silencioso em mau estado de funcionamento, produzindo ruído em nível elevado",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 501,
@@ -6586,7 +6586,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "dirigir sob efeito de álcool",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 509,
@@ -6599,7 +6599,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "que dirige com atenção",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 510,
@@ -6767,7 +6767,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o coletivismo, o egoísmo e a supervalorização do veículo",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 523,
@@ -6870,7 +6870,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não está relacionada com as normas de circulação no trânsito",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 531,
@@ -7100,7 +7100,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "eletricidade",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 549,
@@ -7113,7 +7113,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "anima a festa com os amigos na rua, mantendo alto o volume de músicas do sistema de som do veículo durante a madrugada",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 550,
@@ -7165,7 +7165,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "descortesia, egoísmo e obediência às leis",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 554,
@@ -7308,7 +7308,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "curso de reciclagem e advertência verbal",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 565,
@@ -7462,7 +7462,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "D",
     checked: true,
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 577,
@@ -7527,7 +7527,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "o controle emocional",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 582,
@@ -7552,7 +7552,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "aumento da circulação de bicicletas",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 584,
@@ -7902,7 +7902,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "parar o veículo em local sujeito a risco de acidentes para conversar com pessoas conhecidas",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 611,
@@ -7982,7 +7982,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "Conama",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 617,
@@ -8084,7 +8084,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "se observam lixeiras apropriadas e pisos limpos no interior e nos arredores de lanchonetes ou restaurantes à beira da estrada",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 625,
@@ -8382,7 +8382,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manutenção periódica do escapamento e do silencioso",
     },
     answer: "?",
-    type: "MEIO_AMBIENTE",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 648,
@@ -8408,7 +8408,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estaciona em vaga de idoso, mas retira seu veículo prontamente assim que solicitado pela autoridade de trânsito ou por outro usuário",
     },
     answer: "?",
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
     id: 650,
@@ -8550,6 +8550,6 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "C",
     checked: true,
-    type: "CIDADANIA",
+    type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
 ];

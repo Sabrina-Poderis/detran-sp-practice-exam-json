@@ -14,12 +14,11 @@ export interface QuestionDetranInterface {
 
 type QuestionDetranType = 
   'NAO_IDENTIFICADO' |
-  'CIDADANIA' |
+  'CIDADANIA_E_MEIO_AMBIENTE' |
   'DIRECAO_DEFENSIVA' | 
   'LEGISLACAO' | 
   'PRIMEIROS_SOCORROS' |
-  'MECANICA_BASICA' |
-  'MEIO_AMBIENTE';
+  'MECANICA_BASICA';
 
 type QuestionDetranOptions = 
   'A' |
