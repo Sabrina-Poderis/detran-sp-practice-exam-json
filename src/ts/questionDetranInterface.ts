@@ -18,7 +18,8 @@ type QuestionDetranType =
   'DIRECAO_DEFENSIVA' | 
   'LEGISLACAO' | 
   'PRIMEIROS_SOCORROS' |
-  'MECANICA_BASICA';
+  'MECANICA_BASICA' |
+  'PLACAS_DE_TRANSITO';
 
 type QuestionDetranOptions = 
   'A' |

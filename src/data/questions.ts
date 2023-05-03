@@ -64,7 +64,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "se destina à circulação de veículos de transporte de produtos perecíveis",
     },
     answer: "C",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 6,
@@ -77,7 +77,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve virar à direita",
     },
     answer: "B",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 7,
@@ -167,7 +167,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "em nenhuma hipótese pode parar ou estacionar o veículo na extensão da via indicada pela sinalização",
     },
     answer: "D",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 14,
@@ -337,7 +337,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "D",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 27,
@@ -364,7 +364,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não deve retornar na via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 29,
@@ -414,7 +414,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao alargamento da pista à esquerda",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 33,
@@ -480,7 +480,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conversão à direita no cruzamento",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 38,
@@ -493,7 +493,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "confluência com via lateral, com possibilidade de entrada de veículos à direita",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 39,
@@ -557,7 +557,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há bifurcação da via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 44,
@@ -596,7 +596,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação de automóveis",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 47,
@@ -648,7 +648,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acionar buzina ou sinal sonoro",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 51,
@@ -700,7 +700,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade, pois se trata de área de cruzamento",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 55,
@@ -713,7 +713,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estreitamento de pista à direita",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 56,
@@ -957,7 +957,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é obrigatório seguir em frente ou à esquerda",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 75,
@@ -1151,7 +1151,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "poderá transitar com caminhões a partir da placa",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 90,
@@ -1228,7 +1228,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedestres em circulação à direita da via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 96,
@@ -1380,7 +1380,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à pista irregular",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 108,
@@ -1420,7 +1420,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter a velocidade, pois os amortecedores do veículo compensam o desnível",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 111,
@@ -1433,7 +1433,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "atravessando a via devagar e com cuidado",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 112,
@@ -1485,7 +1485,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "área com crianças brincando na via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 116,
@@ -1589,7 +1589,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "alto índice de atropelamento",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 124,
@@ -1759,7 +1759,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a junção com duas vias laterais, a primeira à direita, devido à possibilidade de acesso de veículos na pista",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 137,
@@ -1953,7 +1953,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pode seguir em frente, desde que more naquela via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 152,
@@ -2019,7 +2019,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedestres em circulação à esquerda da via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 157,
@@ -2044,7 +2044,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "lombada física na via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 159,
@@ -2147,7 +2147,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há um declive à direita na via à frente, com risco de acidente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 167,
@@ -2225,7 +2225,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "A",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 173,
@@ -2289,7 +2289,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pedestres devem andar lado a lado com os ciclistas na via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 178,
@@ -2328,7 +2328,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "preferência de acesso em rotatória",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 181,
@@ -2406,7 +2406,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via é sinuosa à esquerda, o que favorece a ocorrência de acidentes",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 187,
@@ -2433,7 +2433,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apesar de proibido o trânsito de veículos de tração animal, o condutor deve manter a atenção em relação ao possível desrespeito da sinalização",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 189,
@@ -2459,7 +2459,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "seguir em frente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 191,
@@ -2473,7 +2473,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "D",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 192,
@@ -2486,7 +2486,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "redobrar a atenção, pois é possível que ocorra a presença de carrinhos de mão circulando de forma irregular no local",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 193,
@@ -2551,7 +2551,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via apresenta curva à direita",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 198,
@@ -2644,7 +2644,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "C",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 205,
@@ -2696,7 +2696,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estar alerta, pois há uma via sem saída à esquerda",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 209,
@@ -2722,7 +2722,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "calibragem dos pneus",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 211,
@@ -2735,7 +2735,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com mata ao lado sujeita a incêndio que pode comprometer a visibilidade do condutor",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 212,
@@ -2855,7 +2855,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não deverá seguir em frente, pois a via é de circulação exclusiva de ônibus",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 221,
@@ -2881,7 +2881,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "estão proibidos de parar no acostamento",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 223,
@@ -3010,7 +3010,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "com duas ou mais vias",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 233,
@@ -3036,7 +3036,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "não há necessidade de manter velocidade compatível com o local",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 235,
@@ -3049,7 +3049,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à entrada e saída única de veículos na via à frente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 236,
@@ -3087,7 +3087,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à bifurcação da via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 239,
@@ -3113,7 +3113,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ônibus urbanos",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 241,
@@ -3178,7 +3178,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve virar à direita",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 246,
@@ -3191,7 +3191,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao peso máximo da carga transportada, pois a via à frente tem limitação de peso",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 247,
@@ -3269,7 +3269,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "confluência com via lateral, com possibilidade de entrada de veículos à esquerda, com risco de acidente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 253,
@@ -3322,7 +3322,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "entroncamento com via lateral à direita, com risco de acidente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 257,
@@ -3373,7 +3373,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "posto de alfândega",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 261,
@@ -3424,7 +3424,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "controle da velocidade por câmeras",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 265,
@@ -3541,7 +3541,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação exclusiva de tratores e máquinas",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 274,
@@ -3580,7 +3580,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é permitida a circulação de ciclistas e de pedestres",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 277,
@@ -3881,7 +3881,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade, pois a via sofrerá estreitamento no lado esquerdo",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 300,
@@ -3907,7 +3907,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apesar de proibido o trânsito de bicicletas, o condutor deve manter a atenção em relação ao desrespeito da sinalização",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 302,
@@ -3960,7 +3960,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "apesar de proibido o trânsito de tratores e máquinas, o condutor deve manter a atenção em relação ao eventual desrespeito da sinalização",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 306,
@@ -4012,7 +4012,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a tara máxima do veículo",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 310,
@@ -4221,7 +4221,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acessar a via, não parando em hipótese alguma, pois a placa indica acesso preferencial",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 326,
@@ -4376,7 +4376,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ser multado se parar e estacionar",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 338,
@@ -4402,7 +4402,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "reduzir a velocidade, somente se a pista estiver molhada",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 340,
@@ -4506,7 +4506,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "B",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 348,
@@ -4531,7 +4531,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a trecho da via com estreitamento da pista adiante, pois isso limita a passagem de veículos maiores",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 350,
@@ -4699,7 +4699,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ponte móvel",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 363,
@@ -4725,7 +4725,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "às condições escorregadias da via à frente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 365,
@@ -4751,7 +4751,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "de entrada e saída de veículos escolares",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 367,
@@ -4777,7 +4777,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve transportar carga dentro do limite mínimo de peso regulamentado na via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 369,
@@ -4790,7 +4790,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "exclusivamente à esquerda",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 370,
@@ -4830,7 +4830,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "A",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 373,
@@ -4843,7 +4843,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via permite veículos com altura superior a 3 metros",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 374,
@@ -4855,7 +4855,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação proibida de ônibus",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 375,
@@ -4879,7 +4879,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a circulação de motocicletas, motonetas e ciclomotores",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 377,
@@ -4892,7 +4892,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "possibilidade de travessia de gado na via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 378,
@@ -4957,7 +4957,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "curva em S à esquerda",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 383,
@@ -5035,7 +5035,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é proibido seguir em frente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 389,
@@ -5074,7 +5074,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há um cruzamento, entre duas vias, sem semáforos",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 392,
@@ -5179,7 +5179,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "C",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 400,
@@ -5231,7 +5231,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via tem limitação de largura máxima (3 metros) para os veículos",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 404,
@@ -5244,7 +5244,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circular no sentido contrário ao dos ponteiros do relógio",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 405,
@@ -5295,7 +5295,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "predominantemente de escolares",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 409,
@@ -5450,7 +5450,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "término da pista com divisória",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 421,
@@ -5476,7 +5476,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "ao declive do terreno e à possibilidade de existirem veículos em ambos os sentidos",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 423,
@@ -5489,7 +5489,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "contramão de direção",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 424,
@@ -5501,7 +5501,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "é exclusiva para os moradores do local",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 425,
@@ -5579,7 +5579,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve mudar de faixa ou pista de trânsito da esquerda para a direita",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 431,
@@ -5775,7 +5775,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sentido único de direção",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 446,
@@ -5840,7 +5840,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "entroncamento, com via lateral à esquerda, com risco de acidente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 451,
@@ -5879,7 +5879,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "um trecho sem acostamento",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 454,
@@ -5917,7 +5917,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a alteração do sentido único para sentido duplo de circulação",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 457,
@@ -5942,7 +5942,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "semáforo em cruzamento perigoso à frente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 459,
@@ -5956,7 +5956,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "A",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 460,
@@ -6048,7 +6048,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "há obras na pista",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 467,
@@ -6100,7 +6100,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "manter-se atento às ordens dos agentes de polícia, pois se trata de área militar, onde a parada é obrigatória",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 471,
@@ -6138,7 +6138,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "circulação proibida de bicicletas",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 474,
@@ -6164,7 +6164,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sentido único de direção na via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 476,
@@ -6176,7 +6176,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "está obrigado a circular pelo lado direito da via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 477,
@@ -6213,7 +6213,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "trecho da via em aclive acentuado; nessa condição, o condutor deve utilizar marcha reduzida",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 480,
@@ -6238,7 +6238,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "conta com uma faixa exclusiva, à frente, do lado esquerdo da via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 482,
@@ -6329,7 +6329,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "a via apresenta curva fechada à direita, o que favorece a ocorrência de acidentes",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 489,
@@ -6342,7 +6342,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "um cruzamento com ferrovia, com cancela",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 490,
@@ -6355,7 +6355,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acidente na pista",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 491,
@@ -6522,7 +6522,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "proibida na via à frente devido ao risco de acidente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 504,
@@ -6625,7 +6625,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "curva sinuosa",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 512,
@@ -6704,7 +6704,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "pista sinuosa",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 518,
@@ -6780,7 +6780,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "à presença de redutores de velocidade",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 524,
@@ -7038,7 +7038,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "acima da indicada pela placa nos cruzamentos",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 544,
@@ -7436,7 +7436,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "sentido único de circulação da via",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 575,
@@ -7540,7 +7540,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "existência de área de preservação ambiental",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 583,
@@ -7616,7 +7616,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "na via, deve ser mantida, entre os veículos, a distância mínima indicada",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 589,
@@ -7823,7 +7823,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "obrigatoriamente para a frente",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 605,
@@ -7836,7 +7836,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "trânsito de ciclistas",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 606,
@@ -7863,7 +7863,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "D",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 608,
@@ -7889,7 +7889,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "dirigir normalmente, pois a placa indica que não há obra na pista, nem mesmo pedestres",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 610,
@@ -7916,7 +7916,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "C",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 612,
@@ -7995,7 +7995,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "início de pista dupla",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 618,
@@ -8021,7 +8021,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "deve manter a circulação do veículo à direita, deixando livre a faixa da esquerda",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 620,
@@ -8305,7 +8305,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
     },
     answer: "C",
     checked: true,
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 642,
@@ -8497,7 +8497,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "desnível da via com ferrovia, com ou sem barreira",
     },
     answer: "?",
-    type: "LEGISLACAO",
+    type: "PLACAS_DE_TRANSITO",
   },
   {
     id: 657,
