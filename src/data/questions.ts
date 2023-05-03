@@ -660,7 +660,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "embreagem",
       D: "transmissão",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -750,7 +751,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "indicar e orientar os usuários da via sobre a direção que eles devem seguir para atingir determinados destinos, como também relacionar as características geográficas desses destinos",
       D: "orientar os usuários da via quanto ao seu comportamento adequado e seguro no trânsito, podendo conter mensagens que reforcem normas gerais de circulação e conduta",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -1277,7 +1279,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "o mais seguro é resistir ao cansaço e concluir a viagem antes que ocorra um acidente",
       D: "o melhor é ingerir bebidas energéticas ou estimulantes, como café, para reduzir o cansaço",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -1419,7 +1422,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "reduzir a velocidade, pois se trata de área de parada de ônibus",
       D: "manter a velocidade, pois os amortecedores do veículo compensam o desnível",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "PLACAS_DE_TRANSITO",
   },
   {
@@ -1445,7 +1449,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "junta homocinética",
       D: "embreagem",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -1588,7 +1593,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "passagem sinalizada de pedestres",
       D: "alto índice de atropelamento",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "PLACAS_DE_TRANSITO",
   },
   {
@@ -2056,7 +2062,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "manter a calma e avaliar o estado geral da(s) vítima(s)",
       D: "retirar a(s) vítima(s) rapidamente do local para restabelecer o tráfego na via",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -2172,7 +2179,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "o veículo e a via",
       D: "o veículo e o passageiro",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -2669,7 +2677,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ultrapassagem proibida para os dois sentidos",
       D: "ultrapassagem proibida apenas para um dos sentidos",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2801,7 +2810,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "veículos de passeio e veículos com peso até três mil e quinhentos quilogramas e que a lotação não exceda a oito lugares, excluído o do motorista",
       D: "veículos de passeio e veículos com peso acima de três mil e quinhentos quilogramas e que a lotação exceda a oito lugares, excluído o do motorista",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -2919,7 +2929,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "55 km/h",
       D: "60 km/h",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -3086,7 +3097,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ao acesso de veículos pela via lateral à esquerda",
       D: "à bifurcação da via",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "PLACAS_DE_TRANSITO",
   },
   {
@@ -3397,7 +3409,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "estritamente necessário para efetuar embarque ou desembarque de passageiros",
       D: "não superior a dez minutos para efetuar embarque ou desembarque de passageiros",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -3488,7 +3501,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ao nível baixo do fluido de freios e a trincas na roda dianteira",
       D: "à presença de bolhas de ar na tubulação e de trincas nas rodas do veículo",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -3985,7 +3999,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "seguir veículo em serviço de emergência",
       D: "conduzir o veículo sem os documentos de porte obrigatório",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4139,7 +4154,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "orientar os passageiros do banco traseiro a descerem pela porta do lado da pista de rolamento, observando atentamente o movimento da via por meio dos espelhos retrovisores",
       D: "ao abrir o sinal verde do semáforo, avançar o veículo mesmo tendo pedestre concluindo a travessia",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
@@ -4375,7 +4391,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "estacionar, apenas para carga e descarga",
       D: "ser multado se parar e estacionar",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "PLACAS_DE_TRANSITO",
   },
   {
@@ -5903,7 +5920,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "remover o motociclista com ajuda de outros socorristas, em qualquer circunstância, colocando-o na calçada",
       D: "isolar o local para evitar novo acidente e evitar movimentar o motociclista do local onde está caído",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -6060,7 +6078,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "amortecedores danificados",
       D: "catalisador inoperante",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -6099,7 +6118,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "manter-se atento às ordens dos agentes federais, pois se trata de posto policial, onde a parada é obrigatória",
       D: "manter-se atento às ordens dos agentes de polícia, pois se trata de área militar, onde a parada é obrigatória",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "PLACAS_DE_TRANSITO",
   },
   {
@@ -7500,7 +7520,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "sinalizar o local, oferecer bebidas e alimentos quentes à vítima e protegê-la para que não perca calor",
       D: "sinalizar o local, chamar a equipe de socorro e protegê-la com um agasalho",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -7941,7 +7962,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "acelerar o veículo para ganhar aderência",
       D: "manter a velocidade e frear com intensidade",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -8058,7 +8080,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "obrigação de comparecer à Delegacia de Polícia e recolhimento da CNH",
       D: "retenção da moticicleta até apresentação de condutor habilitado na categoria permitida",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -8343,7 +8366,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "curva acentuada não precedida de sinalização e chuva torrencial",
       D: "neblina intensa à noite e pista com buracos, depressões e asfalto deteriorado",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -8381,7 +8405,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "manutenção periódica do catalisador, da injeção eletrônica e do carburador",
       D: "manutenção periódica do escapamento e do silencioso",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "CIDADANIA_E_MEIO_AMBIENTE",
   },
   {
