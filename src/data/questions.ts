@@ -309,6 +309,7 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       D: "oferecer alimentos ou bebidas para os acidentados que solicitarem, adiantando-se à equipe de emergência",
     },
     answer: "D",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -348,7 +349,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "a boa conservação dos freios elimina a necessidade de se manter distância do veículo à frente",
       D: "quanto mais eficientes forem os freios, mais segurança haverá nas frenagens",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -437,7 +439,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "condutor e via",
       D: "via e trânsito",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -450,7 +453,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ruas, avenidas, logradouros, rodovias e estradas",
       D: "ruas, avenidas, rodovias e estradas",
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -823,7 +827,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "multa e apreensão do veículo",
       D: "multa e apreensão da CNH",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -1054,7 +1059,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "distância de frenagem",
       D: "distância de reação",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -1079,7 +1085,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "somente das condições do veículo e da via",
       D: "da habilidade e da experiência do condutor",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -1105,7 +1112,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "40 km/h",
       D: "30 km/h",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -1306,7 +1314,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "permitida, desde que autorizada e sinalizada pelo órgão com circunscrição sobre a via",
       D: "permitida para bicicletas de crianças e adolescentes, desde que os pais se responsabilizem",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -1618,7 +1627,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "iluminação traseira, danificada ou com lâmpadas queimadas",
       D: "direção, com folgas ou com o sistema hidráulico falhando",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -1631,7 +1641,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "condutor dirigindo com sono durante a noite, reduzindo sua concentração no trânsito",
       D: "via com alterações na malha asfáltica, prejudicando a condução do veículo e a ação do condutor",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -1669,7 +1680,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "aplica força menor nas rodas traseiras",
       D: "bloqueia todas as rodas simultaneamente",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -1860,7 +1872,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "4 (quatro) decigramas",
       D: "2 (dois) decigramas",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -1911,7 +1924,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "possibilitar que as pessoas que estão em deslocamento pela via não se atrasem",
       D: "impedir que o acidente gere congestionamento",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -2800,7 +2814,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "o cansaço e o sono podem ser contornados se o condutor ingerir bebidas estimulantes",
       D: "é melhor continuar dirigindo para chegar ao destino mais rápido, onde poderá descansar",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "DIRECAO_DEFENSIVA",
   },
   {
@@ -3668,7 +3683,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "ardência nos olhos, náuseas e dificuldade de respirar",
       D: "dificuldade de respirar, torcicolo e perda da audição",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "MEIO_AMBIENTE",
   },
   {
@@ -4150,7 +4166,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "transversalmente à via, na cor branca",
       D: "longitudinalmente à via, na cor branca",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4487,7 +4504,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "faixa de travessia de pedestres",
       D: "via interditada para área de lazer",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4666,7 +4684,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: 'ter realizado curso especializado reconhecido pelo Detran e ser habilitado na categoria "B"',
       D: 'ter idade mínima de 21 anos, ser habilitado na categoria "D" e ter realizado curso especializado reconhecido pelo Detran',
     },
-    answer: "?",
+    answer: "D",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -4809,7 +4828,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "a buzina não pode ser acionada, apenas se for área de hospital",
       D: "a buzina pode ser acionada durante o dia",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -5157,7 +5177,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "devido à presença de saliência na via",
       D: "devido à presença de pista irregular",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -5622,7 +5643,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "comete crime, mas não comete infração de trânsito",
       D: "comete apenas infração, passível de multa de trânsito",
     },
-    answer: "?",
+    answer: "B",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -5648,7 +5670,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "190",
       D: "191",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "PRIMEIROS_SOCORROS",
   },
   {
@@ -7180,7 +7203,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "bateria",
       D: "correia de transmissão",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -7642,7 +7666,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "pela bateria e pelo alternador",
       D: "pelo gerador primário e pela bobina",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -7889,7 +7914,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "não deve estacionar, pois acarretará transtornos aos condutores e pedestres",
       D: "pode estacionar na via desde que esteja em operações de carga ou descarga no veículo",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
@@ -8237,7 +8263,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "o motor de arranque",
       D: "as velas de ignição",
     },
-    answer: "?",
+    answer: "A",
+    checked: true,
     type: "MECANICA_BASICA",
   },
   {
@@ -8276,7 +8303,8 @@ export const detranQuestions: Array<QuestionDetranInterface> = [
       C: "cruzamento de duas vias",
       D: "bifurcação da via",
     },
-    answer: "?",
+    answer: "C",
+    checked: true,
     type: "LEGISLACAO",
   },
   {
