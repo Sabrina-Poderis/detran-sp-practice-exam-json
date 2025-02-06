@@ -5,16 +5,17 @@
 
 # dependencies
 /node_modules
-/.pnp
+/frontend/node_modules
+/backend/node_modules
+.pnp
 .pnp.js
 package-lock.json
-yarn.lock
 
 # testing
-/coverage
+coverage
 
 # production
-/build
+build
 
 # misc
 .DS_Store

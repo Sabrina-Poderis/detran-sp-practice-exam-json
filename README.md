@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+# Detran SP Practice Exam
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 🚧 Projeto em desenvolvimento!
 
-## Available Scripts
+A aplicação **Detran SP Practice Exam** foi desenvolvida com o objetivo de simular a prova teórica do Detran. Ela permite que os usuários pratiquem questões oficiais e testem seus conhecimentos sobre **legislação de trânsito**, **direção defensiva**, **primeiros socorros** e **mecânica básica**.
 
-In the project directory, you can run:
+O sistema oferece uma experiência similar à prova oficial, ajudando candidatos a se prepararem de maneira eficaz para o exame teórico do Detran de São Paulo.
 
-### `npm start`
+## ⚖️ Aviso Legal
+Este projeto é uma iniciativa particular e não possui qualquer vínculo oficial com o **Detran ** ou qualquer outro órgão governamental. As questões utilizadas foram obtidas a partir de fontes de domínio público disponíveis no site oficial do Detran-SP ([link para referência](https://www.detran.sp.gov.br/detran-prova/simulado_questoes/questoes.htm)).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+⚠️ Importante: Embora as perguntas e respostas tenham sido extraídas de fontes oficiais, **não garantimos a precisão, atualização ou correção das respostas**. O objetivo deste sistema é **auxiliar ** nos estudos, mas ele não substitui materiais oficiais, cursos ou simulados diretamente aplicados pelo Detran.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Os usuários são encorajados a consultar fontes oficiais para garantir que possuem as informações mais atualizadas e corretas antes de realizar o exame teórico.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📝 Funcionalidades
 
-### `npm run build`
+- **Questões Oficiais**: Questões extraídas diretamente do conteúdo oficial de provas teóricas.
+- **Simulação de Prova**: Simula a prova teórica do Detran, permitindo que os usuários testem seus conhecimentos.
+- **Categorias de Conhecimento**:
+  - Legislação de Trânsito
+  - Direção Defensiva
+  - Primeiros Socorros
+  - Mecânica Básica
+- **Feedback de Resultados**: Ao final da prova, o usuário recebe um feedback detalhado sobre seu desempenho.
+- **Experiência Similar à Prova Oficial**: A aplicação replica as condições da prova real para proporcionar uma preparação eficaz.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend**: React com TypeScript, Next.js, TailwindCSS
+- **Backend**: Node.js, Express, MongoDB
+- **Gerenciador de Estado**: Redux
+- **Formatação e Linting**: ESLint, Prettier
+- **Versionamento de Release**: Standard Version
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📦 Instalação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Passo 1: Instalar Dependências
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para começar, instale todas as dependências do projeto:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+yarn install:all`
+```
 
-## Learn More
+Este comando instala as dependências tanto para o frontend quanto para o backend.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Scripts
+`start:frontend`: Inicia o servidor do frontend.
+`start:backend`: Inicia o servidor do backend.
+`install:all`: Instala as dependências de ambos os projetos, frontend e backend.
+`release`: Gera uma nova versão usando o standard-version para versionamento semântico.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔧 Configuração
+Configuração de Aliases de Pasta
+Para garantir uma estrutura modular e de fácil manutenção, o projeto foi configurado com aliases de pasta, permitindo importar componentes, funções e módulos com facilidade. Veja um exemplo de importação usando os aliases configurados:
+
+```typescript
+import Button from '@components/Button';
+import { setQuestions } from '@redux/slices/examSlice';
+```
+
+### 💡 Como Contribuir
+Se você quiser contribuir com este projeto, sinta-se à vontade para abrir um pull request ou reportar problemas através das issues.
+
+Passos para contribuir:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para a sua feature (git checkout -b minha-feature).
+3. Faça suas modificações e commit (git commit -am 'Adiciona nova feature').
+4. Envie para o repositório remoto (git push origin minha-feature).
+5. Abra um Pull Request.
+
+## 🧑‍💻 Desenvolvedora
+Feito com 💙 por Zabrina.
+
+## Licença
+Este projeto é de código aberto e licenciado sob a licença MIT.
