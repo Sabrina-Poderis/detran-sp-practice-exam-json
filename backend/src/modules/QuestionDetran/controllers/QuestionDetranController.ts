@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import QuestionDetranService from '@modules/QuestionDetran/services/QuestionDetranService';
-import QuestionTypeEnum from '@modules/QuestionDetran/ts/enums/QuestionTypeEnum';
+import QuestionDetranMessagesEnum from '@modules/QuestionDetran/ts/enums/QuestionDetranMessagesEnum';
 
 export default class QuestionDetranController {
   private questionService: QuestionDetranService;
@@ -11,34 +11,40 @@ export default class QuestionDetranController {
 
   async getAllQuestions(req: Request, res: Response): Promise<void> {
     try {
-      const questions = await this.questionService.getAllQuestions();
-      res.status(200).json(questions);
+      const includeUnchecked = req.query.includeUnchecked === 'true';
+      const result = await this.questionService.getAllQuestions(includeUnchecked);
+      res.status(200).json(result);
     } catch (error) {
-      res.status(500).json({ message: 'Erro ao buscar questões.' });
+      res.status(500).json({ data: null, message: QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR });
     }
   }
 
   async getQuestionById(req: Request, res: Response): Promise<void> {
     try {
       const id = parseInt(req.params.id, 10);
-      const question = await this.questionService.getQuestionById(id);
-      if (question) {
-        res.status(200).json(question);
+      const result = await this.questionService.getQuestionById(id);
+      if (result.data) {
+        res.status(200).json(result);
       } else {
-        res.status(404).json({ message: 'Questão não encontrada.' });
+        res.status(404).json(result);
       }
     } catch (error) {
-      res.status(500).json({ message: 'Erro ao buscar questão.' });
+      res.status(500).json({ data: null, message: QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR });
     }
   }
 
   async getQuestionsByType(req: Request, res: Response): Promise<void> {
     try {
-      const type = req.params.type as any as QuestionTypeEnum;
-      const questions = await this.questionService.getQuestionsByType(type);
-      res.status(200).json(questions);
+      const type = req.params.type;
+      const includeUnchecked = req.query.includeUnchecked === 'true';
+      const result = await this.questionService.getQuestionsByType(type, includeUnchecked);
+      if (result.data) {
+        res.status(200).json(result);
+      } else {
+        res.status(400).json(result);
+      }
     } catch (error) {
-      res.status(500).json({ message: 'Erro ao buscar questões por tipo.' });
+      res.status(500).json({ data: null, message: QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR });
     }
   }
 }
