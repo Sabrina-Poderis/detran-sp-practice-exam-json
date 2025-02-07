@@ -3,8 +3,8 @@
   "version": "1.2.0",
   "private": true,
   "scripts": {
-    "start:frontend": "cd frontend && npm start",
-    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && yarn start",
+    "start:backend": "cd backend && yarn build && yarn dev",
     "install:all": "yarn install && cd frontend && yarn install && cd ../backend && yarn install",
     "release": "standard-version",
     "prepare": "husky install"

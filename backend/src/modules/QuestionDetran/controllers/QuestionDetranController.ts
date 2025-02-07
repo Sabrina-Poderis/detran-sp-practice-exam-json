@@ -11,7 +11,7 @@ export default class QuestionDetranController {
 
   async getAllQuestions(req: Request, res: Response): Promise<void> {
     try {
-      const checked = req.query.checked === 'true';
+      const checked = req.query?.checked === 'true';
       const result = await this.questionService.getAllQuestions(checked);
       res.status(200).json(result);
     } catch (error) {
@@ -22,6 +22,12 @@ export default class QuestionDetranController {
   async getQuestionById(req: Request, res: Response): Promise<void> {
     try {
       const id = parseInt(req.params.id, 10);
+  
+      if (isNaN(id)) {
+        res.status(400).json({ data: null, message: QuestionDetranMessagesEnum.INVALID_ID });
+        return;
+      }
+  
       const result = await this.questionService.getQuestionById(id);
       if (result.data) {
         res.status(200).json(result);
@@ -32,19 +38,23 @@ export default class QuestionDetranController {
       res.status(500).json({ data: null, message: QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR });
     }
   }
+  
 
   async getQuestionsByType(req: Request, res: Response): Promise<void> {
     try {
       const type = req.params.type;
-      const checked = req.query.checked === 'true';
+      const checked = req.query?.checked === 'true';
+
       const result = await this.questionService.getQuestionsByType(type, checked);
-      if (result.data) {
-        res.status(200).json(result);
-      } else {
+     
+      if (result.message === QuestionDetranMessagesEnum.INVALID_TYPE_ERROR) {
         res.status(400).json(result);
+        return;
       }
-    } catch (error: any) {
-      res.status(500).json({ data: null, message: error.message });
+
+      res.status(200).json(result);
+    } catch (error) {
+      res.status(500).json({ data: null, message: QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR });
     }
   }
 }

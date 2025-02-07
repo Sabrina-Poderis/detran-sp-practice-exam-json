@@ -7,7 +7,7 @@ const config: Config.InitialOptions = {
     '^@modules/(.*)$': '<rootDir>/src/modules/$1',
     '^@shared/(.*)$': '<rootDir>/src/shared/$1',
   },
-  testMatch: ['**/tests/unit/**/*.test.ts'],
+  testMatch: ['**/*.spec.ts'],
   collectCoverage: true,
   coverageDirectory: 'coverage',
   coverageReporters: ['text', 'lcov'],
