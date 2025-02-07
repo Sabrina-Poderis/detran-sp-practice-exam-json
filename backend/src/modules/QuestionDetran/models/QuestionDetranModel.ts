@@ -37,6 +37,6 @@ QuestionDetranSchema.pre('deleteOne', function (next) {
   throw new Error('This collection is readonly.');
 });
 
-const QuestionDetranModel = model<QuestionDetranMongooseDocumentInterface>('Question', QuestionDetranSchema);
+const QuestionDetranModel = model<QuestionDetranMongooseDocumentInterface>('questions-detran', QuestionDetranSchema, 'questions-detran');
 
 export default QuestionDetranModel
