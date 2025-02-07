@@ -3,11 +3,14 @@ import QuestionTypeEnum from "@modules/QuestionDetran/ts/enums/QuestionTypeEnum"
 import QuestionDetranModel from "@modules/QuestionDetran/models/QuestionDetranModel";
 
 export default class QuestionsDetranRepository {
-  async findAll(includeUnchecked: boolean = false): Promise<QuestionDetranInterface[]> {
-    const query: { answer: { $ne: string }, checked?: boolean} = { answer: { $ne: '?' } };
-    if (!includeUnchecked) {
-      query.checked = true;
-    }
+  async findAll(checked: boolean = false): Promise<QuestionDetranInterface[]> {
+    const query = {
+      answer: { $ne: '?' },
+      $or: [
+        { checked: checked }, 
+        { checked: { $exists: false } },
+      ],
+    };
     return await QuestionDetranModel.find(query).exec();
   }
 
@@ -15,11 +18,15 @@ export default class QuestionsDetranRepository {
     return await QuestionDetranModel.findOne({ id, answer: { $ne: '?' } }).exec();
   }
 
-  async findByType(type: QuestionTypeEnum, includeUnchecked: boolean = false): Promise<QuestionDetranInterface[]> {
-    const query: { type: QuestionTypeEnum, answer: { $ne: string }, checked?: boolean } = { type, answer: { $ne: '?' } };
-    if (!includeUnchecked) {
-      query.checked = true;
-    }
+  async findByType(type: QuestionTypeEnum, checked: boolean = false): Promise<QuestionDetranInterface[]> {
+    const query = {
+      type,
+      answer: { $ne: '?' },
+      $or: [
+        { checked: checked }, 
+        { checked: { $exists: false } },
+      ],
+    };
     return await QuestionDetranModel.find(query).exec();
   }
 }

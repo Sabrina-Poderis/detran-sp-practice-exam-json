@@ -10,9 +10,9 @@ export default class QuestionDetranService {
     this.questionRepository = new QuestionsDetranRepository();
   }
 
-  async getAllQuestions(includeUnchecked: boolean = false): Promise<{ data: QuestionDetranInterface[] | null}> {
+  async getAllQuestions(checked: boolean = false): Promise<{ data: QuestionDetranInterface[] | null}> {
     try {
-      const questions = await this.questionRepository.findAll(includeUnchecked);
+      const questions = await this.questionRepository.findAll(checked);
       return { data: questions };
     } catch (error) {
       throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
@@ -32,16 +32,16 @@ export default class QuestionDetranService {
     }
   }
 
-  async getQuestionsByType(type: string, includeUnchecked: boolean = false): Promise<{ data: QuestionDetranInterface[] | null; message?: string }> {
+  async getQuestionsByType(type: string, checked: boolean = false): Promise<{ data: QuestionDetranInterface[] | null; message?: string }> {
     try {
       const validTypes = Object.values(QuestionTypeEnum);
       if (!validTypes.includes(type as QuestionTypeEnum)) {
         return { data: null, message: QuestionDetranMessagesEnum.INVALID_TYPE_ERROR };
       }
-      const questions = await this.questionRepository.findByType(type as QuestionTypeEnum, includeUnchecked);
+      const questions = await this.questionRepository.findByType(type as QuestionTypeEnum, checked);
       return { data: questions};
-    } catch (error) {
-      throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
+    } catch (error: any) {
+      throw new Error(error);
     }
   }
 }
