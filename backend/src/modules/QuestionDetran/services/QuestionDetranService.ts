@@ -1,7 +1,7 @@
 import QuestionsDetranRepository from '@modules/QuestionDetran/repositories/QuestionsDetranRepository';
 import QuestionDetranInterface from '@modules/QuestionDetran/ts/interfaces/QuestionDetranInterface';
 import QuestionTypeEnum from '@modules/QuestionDetran/ts/enums/QuestionTypeEnum';
-import QuestionDetranMessagesEnum from '../ts/enums/QuestionDetranMessagesEnum';
+import QuestionDetranMessagesEnum from '@modules/QuestionDetran/ts/enums/QuestionDetranMessagesEnum';
 
 export default class QuestionDetranService {
   private questionRepository: QuestionsDetranRepository;
