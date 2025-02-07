@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import QuestionDetranService from '@modules/QuestionDetran/services/QuestionDetranService';
-import QuestionTypeEnum from '@modules/QuestionDetran/ts/enum/QuestionTypeEnum';
+import QuestionTypeEnum from '@modules/QuestionDetran/ts/enums/QuestionTypeEnum';
 
 export default class QuestionDetranController {
   private questionService: QuestionDetranService;

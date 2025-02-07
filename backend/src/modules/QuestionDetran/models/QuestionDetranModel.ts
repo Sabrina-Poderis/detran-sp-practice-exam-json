@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
-import QuestionTypeEnum from "@modules/QuestionDetran/ts/enum/QuestionTypeEnum";
-import QuestionOptionsEnum from "@modules/QuestionDetran/ts/enum/QuestionOptionsEnum";
+import QuestionTypeEnum from "@modules/QuestionDetran/ts/enums/QuestionTypeEnum";
+import QuestionOptionsEnum from "@modules/QuestionDetran/ts/enums/QuestionOptionsEnum";
 import QuestionDetranMongooseDocumentInterface from "@modules/QuestionDetran/ts/interfaces/QuestionDetranMongooseDocumentInterface";
 
 const QuestionDetranSchema = new Schema<QuestionDetranMongooseDocumentInterface>({

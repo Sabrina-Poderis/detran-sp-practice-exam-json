@@ -1,5 +1,5 @@
 import QuestionDetranInterface from "@modules/QuestionDetran/ts/interfaces/QuestionDetranInterface";
-import QuestionTypeEnum from "@modules/QuestionDetran/ts/enum/QuestionTypeEnum";
+import QuestionTypeEnum from "@modules/QuestionDetran/ts/enums/QuestionTypeEnum";
 import QuestionDetranModel from "@modules/QuestionDetran/models/QuestionDetranModel";
 
 

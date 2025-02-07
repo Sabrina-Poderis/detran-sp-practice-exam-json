@@ -1,5 +1,5 @@
-import QuestionTypeEnum from "../enum/QuestionTypeEnum";
-import QuestionOptionsEnum from "../enum/QuestionOptionsEnum";
+import QuestionTypeEnum from "../enums/QuestionTypeEnum";
+import QuestionOptionsEnum from "../enums/QuestionOptionsEnum";
 
 export default interface QuestionDetranInterface {
   id: number;
