@@ -1,6 +1,7 @@
 import QuestionsDetranRepository from '@modules/QuestionDetran/repositories/QuestionsDetranRepository';
 import QuestionDetranInterface from '@modules/QuestionDetran/ts/interfaces/QuestionDetranInterface';
 import QuestionTypeEnum from '@modules/QuestionDetran/ts/enums/QuestionTypeEnum';
+import QuestionDetranMessagesEnum from '../ts/enums/QuestionDetranMessagesEnum';
 
 export default class QuestionDetranService {
   private questionRepository: QuestionsDetranRepository;
@@ -9,15 +10,38 @@ export default class QuestionDetranService {
     this.questionRepository = new QuestionsDetranRepository();
   }
 
-  async getAllQuestions(): Promise<QuestionDetranInterface[]> {
-    return await this.questionRepository.findAll();
+  async getAllQuestions(includeUnchecked: boolean = false): Promise<{ data: QuestionDetranInterface[] | null}> {
+    try {
+      const questions = await this.questionRepository.findAll(includeUnchecked);
+      return { data: questions };
+    } catch (error) {
+      throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
+    }
   }
 
-  async getQuestionById(id: number): Promise<QuestionDetranInterface | null> {
-    return await this.questionRepository.findById(id);
+  async getQuestionById(id: number): Promise<{ data: QuestionDetranInterface | null; message?: string }> {
+    try {
+      const question = await this.questionRepository.findById(id);
+      if (question) {
+        return { data: question};
+      } else {
+        return { data: null, message: QuestionDetranMessagesEnum.QUESTION_NOT_FOUND };
+      }
+    } catch (error) {
+      throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
+    }
   }
 
-  async getQuestionsByType(type: QuestionTypeEnum): Promise<QuestionDetranInterface[]> {
-    return await this.questionRepository.findByType(type);
+  async getQuestionsByType(type: string, includeUnchecked: boolean = false): Promise<{ data: QuestionDetranInterface[] | null; message?: string }> {
+    try {
+      const validTypes = Object.values(QuestionTypeEnum);
+      if (!validTypes.includes(type as QuestionTypeEnum)) {
+        return { data: null, message: QuestionDetranMessagesEnum.INVALID_TYPE_ERROR };
+      }
+      const questions = await this.questionRepository.findByType(type as QuestionTypeEnum, includeUnchecked);
+      return { data: questions};
+    } catch (error) {
+      throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
+    }
   }
 }
