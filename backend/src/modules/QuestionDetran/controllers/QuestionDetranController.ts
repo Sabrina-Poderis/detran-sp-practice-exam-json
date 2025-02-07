@@ -11,8 +11,8 @@ export default class QuestionDetranController {
 
   async getAllQuestions(req: Request, res: Response): Promise<void> {
     try {
-      const includeUnchecked = req.query.includeUnchecked === 'true';
-      const result = await this.questionService.getAllQuestions(includeUnchecked);
+      const checked = req.query.checked !== 'false';
+      const result = await this.questionService.getAllQuestions(!checked);
       res.status(200).json(result);
     } catch (error) {
       res.status(500).json({ data: null, message: QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR });
@@ -36,8 +36,8 @@ export default class QuestionDetranController {
   async getQuestionsByType(req: Request, res: Response): Promise<void> {
     try {
       const type = req.params.type;
-      const includeUnchecked = req.query.includeUnchecked === 'true';
-      const result = await this.questionService.getQuestionsByType(type, includeUnchecked);
+      const checked = req.query.checked !== 'false';
+      const result = await this.questionService.getQuestionsByType(type, !checked);
       if (result.data) {
         res.status(200).json(result);
       } else {
