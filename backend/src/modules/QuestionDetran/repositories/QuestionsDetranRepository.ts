@@ -29,4 +29,26 @@ export default class QuestionsDetranRepository {
 
     return await QuestionDetranModel.find(query).exec();
   }
+
+  async findRandom(limit: number, checked: boolean = false): Promise<QuestionDetranInterface[]> {
+    const query = checked
+      ? { checked: true, answer: { $ne: '?' } }
+      : { 
+          answer: { $ne: '?' },
+          $or: [{ checked: true }, { checked: false }, { checked: { $exists: false } }] 
+        };
+
+    return QuestionDetranModel.aggregate([
+      { $match: query },
+      { $sample: { size: limit } }
+    ]);
+  }
+
+  async findByIds(ids: number[], checked: boolean = false): Promise<QuestionDetranInterface[]> {
+    const query = checked
+      ? { _id: { $in: ids }, checked: true }
+      : { _id: { $in: ids }, $or: [{ checked: true }, { checked: false }, { checked: { $exists: false } }] };
+
+    return QuestionDetranModel.find(query).exec();
+  }
 }
