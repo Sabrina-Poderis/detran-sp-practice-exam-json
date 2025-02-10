@@ -47,4 +47,24 @@ export default class QuestionDetranService {
       throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
     }
   }
+
+  async getRandomQuestions(limit: number, checked: boolean = false): Promise<QuestionDetranInterface[]> {
+    try {
+      return await this.questionRepository.findRandom(limit, checked);
+    } catch (error) {
+      throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
+    }
+  }
+
+  async getQuestionsByIds(ids: number[], checked: boolean = false): Promise<QuestionDetranInterface[]> {
+    try {
+      const questions = await this.questionRepository.findByIds(ids, checked);
+      if (questions.length === 0) {
+        throw new Error(QuestionDetranMessagesEnum.QUESTIONS_NOT_FOUND);
+      }
+      return questions
+    } catch (error) {
+      throw new Error(QuestionDetranMessagesEnum.INTERNAL_SERVER_ERROR);
+    }
+  }
 }
